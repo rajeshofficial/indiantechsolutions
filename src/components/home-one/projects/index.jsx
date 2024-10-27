@@ -42,7 +42,7 @@ const projectsData = [
 	{
 		id: crypto.randomUUID(),
 		title: "Shopify Ecommerse Development ",
-		description: "Complete Shopify solutions: setup, hosting, optimization, and ongoing support for your eCommerce success.",
+		description: "Complete Shopify solutions: setup, hosting, optimization, and ongoing support for your eCommerce website success.",
 		img: Project5Img,
 	},
 ];

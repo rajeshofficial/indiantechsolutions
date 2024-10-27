@@ -24,9 +24,9 @@ function ContactInfo() {
 									<img src={Call2Img} alt="Call Img" />
 								</div>
 								<div className="aximo-contact-info-data">
-									<span>Call us</span>
-									<p>+088-234-6532-789</p>
-									<p>+088-456-3217-005</p>
+									<span>Call And Whatsapp us</span>
+									<p>+91 9999211391 (IN) </p>
+									<p>+44 7500132151 (UK)</p>
 								</div>
 							</div>
 						</a>
@@ -38,9 +38,10 @@ function ContactInfo() {
 									<img src={EmailImg} alt="Email" />
 								</div>
 								<div className="aximo-contact-info-data">
-									<span>Call us</span>
-									<p>example@gmail.com</p>
-									<p>example@gmail.com</p>
+									<span>Mail us at </span>
+									<p>Info@indiantechsolutions.com</p>
+								<p>&</p>
+									<p>Rscdraj@gmail.com</p>
 								</div>
 							</div>
 						</a>
@@ -52,7 +53,8 @@ function ContactInfo() {
 							</div>
 							<div className="aximo-contact-info-data">
 								<span>Office address</span>
-								<p>4132 Thornridge City, New York.</p>
+								<p> Rohini , Delhi , India  & </p>
+								<p>Burton On trend , England </p>
 							</div>
 						</div>
 					</div>

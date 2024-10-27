@@ -9,11 +9,11 @@ const testimonialsData = [
 	{
 		id: crypto.randomUUID(),
 		rating: 5,
-		title: "Super customer service!",
+		title: "Best Shopify customization ",
 		description:
-			"Excellent customer service and I was really impressed and happy with my purchase especially as it was a last minute order which got to me in time, and when it arrived I was very happy with the design and size and so was the recipient.",
-		author: "William Jack",
-		designation: "Founder@XYZ",
+			" Indian Tech solution did an amazing job on our Shopify store! They customized our site perfectly with Liquid coding and added helpful apps that streamline our sales and reviews. The site looks great, is easy to navigate, and has made a real difference in our business. Highly recommended!.",
+		author: "Muskan Goel",
+		designation: "Founder of Urbanmati.com",
 		img: Thumb1Img,
 	},
 	{
@@ -21,9 +21,9 @@ const testimonialsData = [
 		rating: 4,
 		title: "Exceptional creativity and vision",
 		description:
-			"Working Mthemeus was a game-changer for our brand. Their exceptional creativity & vision breathed new life into our visual. The logo they perfectly captures our essence & has become instantly recognizable. We couldn't be happier the results!",
-		author: "Smith Align",
-		designation: "Businessman",
+			"We’re thrilled with the website Indian Tech Solution built for Bras Healthcare. The site perfectly represents our commitment to quality and global reach in healthcare. It’s user-friendly, informative, and has helped us better connect with clients worldwide. The team was professional , Highly recommended!",
+		author: "Anil Sharma ",
+		designation: "Co-founder ",
 		img: Thumb2Img,
 	},
 	{
@@ -31,19 +31,19 @@ const testimonialsData = [
 		rating: 5,
 		title: "Innovative and professional",
 		description:
-			"I can't say enough good things about them. Their team is not only incredibly talented but also highly professional. They listened to our ideas and brought to life in ways we couldn't have imagined. Their innovative approach and dedication to our project.",
-		author: "Smith Align",
-		designation: "Milano Joe",
+			"Indian Tech Solution did an outstanding job with the Sustainable Development Map website. The platform is beautifully designed, intuitive, and effectively highlights crucial sustainability data. Their team took our ideas and created a visually engaging and informative site that’s easy for users to navigate. They were responsive, skilled, and dedicated to delivering exactly what we needed. Highly recommend their services",
+		author: "Abdul Shah",
+		designation: "Student ",
 		img: Thumb3Img,
 	},
 	{
 		id: crypto.randomUUID(),
 		rating: 4,
-		title: "Transformed our brand",
+		title: "Transformed our Web Design ",
 		description:
-			"Our partnership with Mthemeus transformed our brand from ordinary to extraordinary. Their branding expertise and design work elevated our marketing materials to a whole new level. Our customers have taken notice, and boost in brand recognition.",
+			"Indian Tech Solution delivered a stunning design for the Sustainable Development Map website. The intuitive layout and visually appealing elements make it easy to explore vital sustainability data. Their attention to detail and creativity transformed our ideas into a user-friendly platform. The team was responsive and truly dedicated to achieving our vision. We highly recommend their expertise for anyone looking to create a compelling online presence!",
 		author: "Danial Mark",
-		designation: "Marketing Director",
+		designation: " Director",
 		img: Thumb4Img,
 	},
 ];

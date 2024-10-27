@@ -30,7 +30,7 @@ function HeroContent() {
 					</div>
 				</div>
 				<div className="aximo-hero-user-data">
-					<p>Believed by more than a thousand people</p>
+					<p>Crafting websites that not only look stunning but work seamlessly</p>
 				</div>
 			</div>
 			<Link className="aximo-call-btn" to="/contact-us">
