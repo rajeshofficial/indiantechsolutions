@@ -24,7 +24,7 @@ function FaqAccordion() {
 								data-bs-toggle="collapse"
 								data-bs-target="#collapseOne"
 							>
-								What services does your design agency offer?
+								What services does your web/Mobile App  agency offer?
 							</button>
 						</h3>
 						<div
@@ -34,7 +34,7 @@ function FaqAccordion() {
 						>
 							<div className="accordion-body">
 								Clients often seek to understand the range of design services an agency provides, such
-								as graphic design, web design, branding, and more. We offer a wide range of design
+								as graphic design, web Development , Mobile app development , and more. We offer a wide range of design
 								services, including graphic design, web design, branding, UI/UX design, and more.
 							</div>
 						</div>

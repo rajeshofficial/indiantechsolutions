@@ -11,57 +11,55 @@ import PortfolioCard from "./PortfolioCard";
 const portfolioListData = [
 	{
 		id: crypto.randomUUID(),
-		title: "Product Design",
-		description: "Developing the look and feel of physical products, aesthetics, and functionality.",
+		title: "Custom Web Development",
+		description: "Creating tailored websites that cater to specific business needs, ensuring unique functionality and design.",
 		img: Portfolio1Img,
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "Logo and Branding",
-		description: "Creating or refreshing a companys logo and developing a cohesive visual identity.",
+		title: "UI/UX Design",
+		description: "Designing user-friendly and visually appealing interfaces for websites and mobile applications to enhance user engagement.",
 		img: Portfolio2Img,
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "App UI/UX Design",
-		description: "Designing the UI/UXe for mobile apps and web applications to ensure usability & engagement.",
+		title: "Mobile App Development",
+		description: "Building robust and responsive mobile applications that work seamlessly on Android and iOS platforms.",
 		img: Portfolio3Img,
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "Packaging Design",
-		description: "Creating packaging solutions for products that not only protect attract customers on store.",
+		title: "WordPress Development",
+		description: "Creating versatile WordPress websites tailored for easy management and optimal performance.",
 		img: Portfolio4Img,
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "Environmental Design",
-		description:
-			"Designing trade show booths, exhibition spaces, and immersive installations for events and conferences.",
+		title: "Wix Development",
+		description: "Designing and developing websites on Wix for quick, customizable, and user-friendly solutions.",
 		img: Portfolio5Img,
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "Environmental Design",
-		description:
-			"Designing trade show booths, exhibition spaces, and immersive installations for events and conferences.",
+		title: "Web Solutions",
+		description: "Providing all web-related solutions, from domain and hosting to website optimization and SEO services.",
 		img: Portfolio6Img,
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "Advertising Campaigns",
-		description:
-			"Developing creative concepts for print, digital, and video advertising campaigns, including ad design and copywriting",
+		title: "E-commerce Development",
+		description: "Building responsive and feature-rich e-commerce sites with product management, payment gateways, and more.",
 		img: Portfolio7Img,
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "Website Development",
-		description:
-			"Designing and building user-friendly websites that are visually appealing and responsive to different devices.",
+		title: "Website Redesign",
+		description: "Revamping existing websites with updated design, functionality, and mobile responsiveness.",
 		img: Portfolio8Img,
 	},
 ];
+
+
 function PortfolioList() {
 	return (
 		<div className="section aximo-project-page aximo-section-padding5">

@@ -28,7 +28,7 @@ function PortfolioDetails() {
 				<div className="aximo-project-info-wrap">
 					<div className="aximo-project-info">
 						<h3>Client:</h3>
-						<p>Alfado Company,UK</p>
+						<p>Urbanmati,Delhi</p>
 					</div>
 					<div className="aximo-project-info">
 						<h3>Date:</h3>
@@ -40,7 +40,7 @@ function PortfolioDetails() {
 					</div>
 					<div className="aximo-project-info">
 						<h3>Cost:</h3>
-						<p>50k USD</p>
+						<p>50k Rs</p>
 					</div>
 				</div>
 				<div className="aximo-project-single-wrap">

@@ -3,6 +3,7 @@ import Project1Img from "../../../assets/images/v1/project1.png";
 import Project2Img from "../../../assets/images/v1/project2.png";
 import Project3Img from "../../../assets/images/v1/project3.png";
 import Project4Img from "../../../assets/images/v1/project4.png";
+import Project5Img from "../../../assets/images/v1/project5.png";
 import ProjectCard from "./ProjectCard";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Mousewheel } from "swiper/modules";
@@ -10,41 +11,42 @@ import { Pagination, Mousewheel } from "swiper/modules";
 const projectsData = [
 	{
 		id: crypto.randomUUID(),
-		title: "Product Design",
-		description: "Developing the look and feel of physical products, aesthetics, and functionality.",
+		title: "Custom Web Development",
+		description: "Building unique and tailored websites that align with client needs, ensuring high functionality and bespoke design.",
 		img: Project1Img,
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "Logo and Branding",
-		description: "Creating or refreshing a company's logo and developing a cohesive visual identity.",
+		title: "UI/UX Design",
+		description: "Crafting engaging and user-friendly interfaces for websites and mobile apps, enhancing usability and experience.",
 		img: Project2Img,
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "App UI/UX Design",
-		description: "Designing the UI/UXe for mobile apps and web applications to ensure usability & engagement.",
+		title: "Mobile App Development",
+		description: "Developing feature-rich mobile applications optimized for performance on Android and iOS platforms.",
 		img: Project3Img,
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "Packaging Design",
-		description: "Creating packaging solutions for products that not only protect attract customers on store.",
+		title: "WordPress Development",
+		description: "Creating highly functional and customizable WordPress websites, designed for ease of use and robust management.",
 		img: Project4Img,
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "Product Design",
-		description: "Developing the look and feel of physical products, aesthetics, and functionality.",
+		title: "Wix Development",
+		description: "Designing flexible, user-friendly websites using Wix for quick deployment and a strong online presence.",
 		img: Project1Img,
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "Logo and Branding",
-		description: "Creating or refreshing a company's logo and developing a cohesive visual identity.",
-		img: Project2Img,
+		title: "Shopify Ecommerse Development ",
+		description: "Complete Shopify solutions: setup, hosting, optimization, and ongoing support for your eCommerce success.",
+		img: Project5Img,
 	},
 ];
+
 
 const swiperSettings = {
 	spaceBetween: 24,
