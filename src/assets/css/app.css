@@ -2120,21 +2120,7 @@ header.aximo-header-section.aximo-header7.sticky-menu {
 		padding: 30px;
 	}
 }
-.aximo-footer-bottom.two {
-	border-top: 1px solid #e6e6e6;
-}
-.aximo-footer-bottom.three {
-	border-top: 1px solid #e6e6e6;
-}
-.aximo-footer-bottom.four {
-	border-top: 1px solid #302f43;
-}
-.aximo-footer-bottom.five {
-	border-top: 1px solid #e6e6e6;
-}
-.aximo-footer-bottom.seven {
-	border-top: 1px solid rgba(11, 16, 64, 0.1);
-}
+
 
 @media (max-width: 991px) {
 	.aximo-footer-logo {
@@ -7843,7 +7829,7 @@ img.swipeimage {
 	object-fit: cover;
 	z-index: 9;
 	opacity: 0;
-	visibily: hidden;
+	visibility: hidden;
 	pointer-events: none;
 	border-radius: 7px;
 	border: 5px solid #fff;
@@ -8057,6 +8043,7 @@ a.forgot-password {
 }
 .aximo-account-checkbox label:before {
 	content: "";
+	appearance: none;
 	-webkit-appearance: none;
 	background-color: transparent;
 	border: 1.5px solid #7f8995;

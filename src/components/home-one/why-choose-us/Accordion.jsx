@@ -31,7 +31,7 @@ function Accordion() {
 				</h3>
 				<div id="collapseTwo" className="accordion-collapse collapse" data-bs-parent="#aximo-accordion">
 					<div className="accordion-body">
-						rainstorming is a group creativity technique in which members attempt to find a conclusion.
+						rainstorming is a group creativity technique in which members attempt to find a conclusion  by reseaching on the idea .
 					</div>
 				</div>
 			</div>
@@ -48,7 +48,7 @@ function Accordion() {
 				</h3>
 				<div id="collapseThree" className="accordion-collapse collapse" data-bs-parent="#aximo-accordion">
 					<div className="accordion-body">
-						The completed design assets or final product are delivered with necessary documentation.
+						The completed web and phone application assets or final product are delivered with necessary documentation.
 					</div>
 				</div>
 			</div>

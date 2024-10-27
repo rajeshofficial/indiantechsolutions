@@ -31,7 +31,7 @@ function PortfolioList() {
 					<h2>
 						Have a wide range of
 						<span className="aximo-title-animation">
-							creative projects
+							creative  web projects
 							<span className="aximo-title-icon">
 								<img src={Star2Img} alt="star" />
 							</span>

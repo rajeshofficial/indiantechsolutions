@@ -4,15 +4,15 @@ import { useState } from "react";
 const pricingPlanData = [
 	{
 		id: crypto.randomUUID(),
-		title: "Web Design Package",
+		title: "Custom Web Development ",
 		price: [
 			{ id: 1, value: 299 },
 			{
 				id: 2,
-				value: 399,
+				value: 99,
 			},
 		],
-		description: "Web design packages offered a range of services and features to create websites",
+		description: " Custom Web Development  packages offered a range of services and features to create websites",
 		features: [
 			"Consultation & Discovery",
 			"Responsive Design",
@@ -24,15 +24,15 @@ const pricingPlanData = [
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "UX/UI Package",
+		title: "UX/UI Design (Web/Mobile",
 		price: [
-			{ id: 1, value: 499 },
+			{ id: 1, value: 199 },
 			{
 				id: 2,
-				value: 599,
+				value: 59,
 			},
 		],
-		description: "UX/UI package offered a set of services aimed at designing user-friendly UI/UX",
+		description: "UX/UI package offered a set of services aimed at designing user-friendly UI/UX for web and Mobile app",
 		features: [
 			"Information Architecture",
 			"Wireframing & Prototyping",
@@ -44,23 +44,41 @@ const pricingPlanData = [
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "Branding Package",
+		title: "Wordpress Website ",
 		price: [
-			{ id: 1, value: 299 },
+			{ id: 1, value: 199 },
 			{
 				id: 2,
-				value: 399,
+				value: 99,
 			},
 		],
-		description: "Branding package typically includes a comprehensive set of brand's identity",
+		description: "We create WordPress websites for your portfolio and products with custom design and SEO. ",
 		features: [
-			"Brand Guidelines",
+			"Hosting services ",
 			"Stationery & Website Design",
 			"Social Media Assets",
-			"Signage & Packaging Design",
-			"Brand Launch Support",
+			" Custom Plugins ",
+			"SEO to rank on google ",
 		],
 		highlighted: false,
+	},
+	{
+		"id": crypto.randomUUID(),
+		"title": "Shopify E-commerce Website",
+		"price": [
+			{ "id": 1, "value": 399 },
+			{ "id": 2, "value": 99 }
+		],
+		"description": "We build Shopify e-commerce sites to showcase and sell your products with custom design and SEO",
+		"features": [
+			"Hosting services",
+			"Custom Shopify Theme Design",
+			"Product Listing & Catalog Management",
+			"Payment Gateway Integration",
+			"SEO to rank on Google",
+			"Mobile-optimized design"
+		],
+		"highlighted": false
 	},
 ];
 function PricingPlan() {
@@ -109,8 +127,11 @@ function PricingPlan() {
 						<PricingCard key={plan.id} plan={plan} frequency={frequency} />
 					))}
 				</div>
+				
 			</div>
+			
 		</div>
+		
 	);
 }
 export default PricingPlan;

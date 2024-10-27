@@ -18,23 +18,27 @@ function FooterContent() {
 				use our creative skills to translate these requirements and practical design solutions.
 			</p>
 			<div className="aximo-info-wrap">
-				<div className="aximo-info">
-					<ul>
-						<li>Give us a call:</li>
-						<li>
-							<a href="tel:(123) 456-7890">(123) 456-7890</a>
-						</li>
-					</ul>
-				</div>
-				<div className="aximo-info">
-					<ul>
-						<li>Send us an email:</li>
-						<li>
-							<a href="mailto:info@mthemeus.com">info@mthemeus.com</a>
-						</li>
-					</ul>
-				</div>
-			</div>
+    <div className="aximo-info">
+        <ul>
+            <li>Give us a call:</li>
+            <li>
+                <a href="tel:+919999211391">+91 9999211391 (India)</a>
+            </li>
+            <li>
+                <a href="tel:+447500132151">+44 7500 132151 (UK)</a>
+            </li>
+        </ul>
+    </div>
+    <div className="aximo-info">
+        <ul>
+            <li>Send us an email:</li>
+            <li>
+                <a href="mailto:info@indiantechsolutions.com">info@indiantechsolutions.com</a>
+            </li>
+        </ul>
+    </div>
+</div>
+
 			<div className="aximo-social-icon social-large">
 				<ul>
 					<li>
