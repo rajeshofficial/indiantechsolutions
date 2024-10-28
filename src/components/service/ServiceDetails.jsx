@@ -19,7 +19,7 @@ function ServiceDetails() {
 											<img src={Star2Img} alt="star" />
 										</span>
 									</span>
-									product development
+									 product development
 								</h2>
 								<p>
 									UI/UX, which stands for User Interface (UI) and User Experience (UX), are two
