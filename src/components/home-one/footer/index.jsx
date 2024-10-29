@@ -19,9 +19,13 @@ function Footer() {
 						</div>
 					</div>
 				</div>
+				
 				<div className="aximo-footer-bottom">
 					<div className="row">
+						
 						<FooterBottom />
+					
+
 					</div>
 				</div>
 			</div>

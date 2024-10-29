@@ -2112,7 +2112,7 @@ header.aximo-header-section.aximo-header7.sticky-menu {
 }
 
 .aximo-footer-bottom {
-	padding: 35px 0;
+	padding: 0 0 35px 0;
 	border-top: 1px solid #333;
 }
 @media (max-width: 991px) {
@@ -10305,3 +10305,15 @@ button#aximo-notified-btn {
 
 /*1.4 themes css*/
 /*# sourceMappingURL=app.css.map */
+
+
+.footeriim {
+    margin-bottom: -5.5rem !important; /* Default margin */
+}
+
+/* For iPads */
+@media only screen and (max-width: 1024px) {
+    .footeriim {
+        margin-bottom: -2.0rem !important; /* Margin for iPads */
+    }
+}
