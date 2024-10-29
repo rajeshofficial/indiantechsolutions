@@ -22,6 +22,9 @@ import SingleTeam from "../page/team/SingleTeam.jsx";
 import CommingSoon from "../page/utility/CommingSoon.jsx";
 import Faq from "../page/utility/Faq.jsx";
 import TestimonialPage from "../page/utility/Testimonial.jsx";
+import WordPress from "../components/service/wordpress.jsx";
+import CustomWebsite from "../components/service/customWebsite.jsx";
+import Shopify from "../components/service/shopifyEcom.jsx";
 
 export const router = createBrowserRouter([
 	{
@@ -75,7 +78,7 @@ export const router = createBrowserRouter([
 						element: <Service />,
 					},
 					{
-						path: "/single-service",
+						path: "/ui-ux",
 						element: <SingleService />,
 					},
 					{
@@ -101,6 +104,18 @@ export const router = createBrowserRouter([
 					{
 						path: "*",
 						element: <ErrorPage />,
+					},
+					{
+						path: "/Wordpress-Site",
+						element: <WordPress/>,
+					},
+					{
+						path: "/Shopify-Ecommerce",
+						element: <Shopify/>,
+					},
+					{
+						path: "/CustomWebsite",
+						element : < CustomWebsite/>
 					},
 				],
 			},

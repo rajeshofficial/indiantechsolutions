@@ -6,6 +6,7 @@ import Services from "../../components/home-one/services";
 import Teams from "../../components/home-one/teams";
 import Testimonial from "../../components/home-one/testimonial";
 import WhyChooseUs from "../../components/home-one/why-choose-us";
+// import WordPress from "../../components/service/wordpress";
 
 // Teams images
 import Team1Img from "../../assets/images/team/team1.png";
@@ -20,6 +21,7 @@ const servicesData = [
 		description:
 			"Designing and developing websites to ensure they are visually look and appealing, user-friendly, and functional your website.",
 		icon: "icon-design-tools",
+		path: "/ui-ux",
 	},
 	{
 		id: crypto.randomUUID(),
@@ -27,6 +29,7 @@ const servicesData = [
 		description:
 			"Building & customizing Shopify stores, including themes, products , and user-friendly interfaces for a seamless shopping experience.",
 		icon: "icon-branding",
+		path: "/Shopify-Ecommerce",
 	},
 	{
 		id: crypto.randomUUID(),
@@ -34,6 +37,8 @@ const servicesData = [
 		description:
 			" Improving website usability and accessibility using React, Angular, HTML, CSS, and JavaScript for seamless, dynamic user experiences",
 		icon: "icon-web",
+		path: "CustomWebsite",
+	
 	},
 	{
 		id: crypto.randomUUID(),
@@ -41,6 +46,7 @@ const servicesData = [
 		description:
 			"Customizing WordPress websites with tailored themes and plugins for enhanced user engagement",
 		icon: "icon-design-thinking",
+		path: "Wordpress-Site",
 	},
 ];
 
@@ -81,6 +87,7 @@ function HomeOne() {
 			<WhyChooseUs />
 			<Testimonial />
 			<AutoSlider />
+			{/* <WordPress/> */}
 			<Teams teams={teamsData} />
 		</>
 	);

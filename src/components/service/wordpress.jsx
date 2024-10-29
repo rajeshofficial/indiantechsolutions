@@ -1,7 +1,7 @@
 import SingleImg from "../../assets/images/service/service-single.png";
 import Star2Img from "../../assets/images/v1/star2.png";
 import WorkingApproach from "./WorkingApproach";
-function ServiceDetails() {
+function WordPress() {
 	return (
 		<div className="section aximo-section-padding2 pb-0">
 			<div className="container">
@@ -73,4 +73,4 @@ function ServiceDetails() {
 	);
 }
 
-export default ServiceDetails;
+export default WordPress;
