@@ -33,13 +33,7 @@ const services = [
             "Creating dynamic, responsive user interfaces using modern web technologies, ensuring an appealing and accessible experience for all users.",
         icon: "icon-design-thinking",
     },
-    {
-        id: crypto.randomUUID(),
-        title: "DevOps",
-        description:
-            "Implementing CI/CD pipelines, automation, and infrastructure management to streamline development workflows and enhance deployment efficiency.",
-        icon: "icon-layers",
-    },
+  
     {
         id: crypto.randomUUID(),
         title: "Wix Development",
@@ -54,13 +48,7 @@ const services = [
             "Designing intuitive and responsive web applications that prioritize usability and aesthetics, enhancing functionality and user satisfaction.",
         icon: "icon-chef",
     },
-    {
-        id: crypto.randomUUID(),
-        title: "System Architecture",
-        description:
-            "Structuring and designing robust system architectures to support scalable, reliable, and high-performance applications.",
-        icon: "icon-target-1",
-    },
+   
 ];
 
 function ServicePage() {

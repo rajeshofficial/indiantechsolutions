@@ -1,4 +1,4 @@
-import SingleImg from "../../assets/images/service/service-single.png";
+import SingleImg from "../../assets/images/service/Custom.png";
 import Star2Img from "../../assets/images/v1/star2.png";
 import WorkingApproach from "./WorkingApproach";
 function CustomWebsite() {

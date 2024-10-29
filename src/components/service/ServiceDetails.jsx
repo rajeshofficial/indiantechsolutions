@@ -1,13 +1,14 @@
-import SingleImg from "../../assets/images/service/service-single.png";
+import UiUx from "../../assets/images/service/UiUx.png";
 import Star2Img from "../../assets/images/v1/star2.png";
 import WorkingApproach from "./WorkingApproach";
 function ServiceDetails() {
 	return (
 		<div className="section aximo-section-padding2 pb-0">
+		
 			<div className="container">
 				<div className="aximo-service-details-wrap">
 					<div className="aximo-service-details-thumb">
-						<img src={SingleImg} alt="Single img" />
+						<img src={UiUx} alt="UIUX img" />
 					</div>
 					<div className="row">
 						<div className="col-lg-8">
