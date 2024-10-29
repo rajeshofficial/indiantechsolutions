@@ -2,7 +2,7 @@
 import shopifyImgBG from "../../assets/images/service/Shopify.png"
 import Star2Img from "../../assets/images/v1/star2.png";
 import WorkingApproach from "./WorkingApproach";
-function Shopify() {
+function ShopifyEcom() {
 	return (
 		
 		<div className="section aximo-section-padding2 pb-0">
@@ -78,4 +78,4 @@ function Shopify() {
 	);
 }
 
-export default Shopify;
+export default ShopifyEcom;

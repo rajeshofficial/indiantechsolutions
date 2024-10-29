@@ -11,6 +11,7 @@ const services = [
         description:
             "Creating user-centric interfaces and enhancing user experiences to make digital products accessible, intuitive, and visually engaging.",
         icon: "icon-design-tools",
+        path: "/ui-ux",
     },
     {
         id: crypto.randomUUID(),
@@ -18,6 +19,7 @@ const services = [
         description:
             "Developing and managing both frontend and backend services, delivering seamless, high-performing applications across web and mobile platforms.",
         icon: "icon-branding",
+        path: "/CustomWebsite",
     },
     {
         id: crypto.randomUUID(),
@@ -25,6 +27,7 @@ const services = [
         description:
             "Building and customizing Shopify stores to create unique, user-friendly e-commerce experiences with enhanced functionality and optimized performance.",
         icon: "icon-web",
+        path: "/Shopify-Ecommerce",
     },
     {
         id: crypto.randomUUID(),
@@ -32,6 +35,7 @@ const services = [
         description:
             "Creating dynamic, responsive user interfaces using modern web technologies, ensuring an appealing and accessible experience for all users.",
         icon: "icon-design-thinking",
+        path: "/CustomWebsite",
     },
   
     {
@@ -40,6 +44,7 @@ const services = [
         description:
             "Designing and customizing websites on Wix with tailored functionality, creating visually appealing sites with a seamless user experience.",
         icon: "icon-rating-stars-1",
+        path: "/Wordpress-Site",
     },
     {
         id: crypto.randomUUID(),

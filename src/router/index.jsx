@@ -22,9 +22,9 @@ import SingleTeam from "../page/team/SingleTeam.jsx";
 import CommingSoon from "../page/utility/CommingSoon.jsx";
 import Faq from "../page/utility/Faq.jsx";
 import TestimonialPage from "../page/utility/Testimonial.jsx";
-import WordPress from "../components/service/wordpress.jsx";
-import CustomWebsite from "../components/service/customWebsite.jsx";
-import Shopify from "../components/service/shopifyEcom.jsx";
+import WordPress from "../page/service/WordpressPg.jsx";
+import ReactPage from "../page/service/ReactPg.jsx";
+import ShopifyPage from "../page/service/shopifyBc.jsx";
 
 export const router = createBrowserRouter([
 	{
@@ -111,11 +111,11 @@ export const router = createBrowserRouter([
 					},
 					{
 						path: "/Shopify-Ecommerce",
-						element: <Shopify/>,
+						element: <ShopifyPage/>,
 					},
 					{
 						path: "/CustomWebsite",
-						element : < CustomWebsite/>
+						element : < ReactPage/>
 					},
 				],
 			},

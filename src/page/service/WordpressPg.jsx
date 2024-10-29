@@ -1,11 +1,11 @@
 import BreadCrumb from "../../components/common/Breadcrumb";
 import Testimonial from "../../components/home-one/testimonial";
-import ShopifyEcom from "../../components/service/shopifyEcom";
+import WordPress from "../../components/service/wordpress";
 function ShopifyPage() {
 	return (
 		<>
-			<BreadCrumb title="Shopify Ecommerse" />
-			<ShopifyEcom />
+			<BreadCrumb title="Wordpres Website" />
+			<WordPress/>
 			<Testimonial />
 		</>
 	);
