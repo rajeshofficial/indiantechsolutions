@@ -14,7 +14,7 @@ const projectsData = [
     title: "Custom Web Development",
     description: "Building unique and tailored websites that align with client needs, ensuring high functionality and bespoke design.",
     img: Project1Img,
-    path: "/portfolio/custom-web-development",
+    path: "/React-website",
   },
   {
     id: crypto.randomUUID(),
@@ -28,7 +28,7 @@ const projectsData = [
     title: "UI/UX Design",
     description: "Crafting engaging and user-friendly interfaces for websites and mobile apps, enhancing usability and experience.",
     img: Project2Img,
-    path: "/portfolio/ui-ux-design",
+    path: "/ui-ux-design",
   },
   {
     id: crypto.randomUUID(),

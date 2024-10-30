@@ -1,26 +1,27 @@
 
 import Single2Img from "../../../assets/images/portfolio/p_single2.png";
-import wordpressbg from "../../../assets/images/portfolio/wordpress.png"
+import wordpressbg from "../../../assets/images/portfolio/craftdelhi.png"
 import Star2Img from "../../../assets/images/v1/star2.png";
 const projectResolveSteps = [
     {
-        id: crypto.randomUUID(),
-        title: "Concept Development",
-        text: "Based on user research and feedback, the development team outlined the key features and design elements for the website. They created wireframes and prototypes to visualize the user experience."
+      id: crypto.randomUUID(),
+      title: "Concept Development",
+      text: "The design team outlined core elements based on user research, creating wireframes and prototypes to shape the visual and user experience."
     },
     {
-        id: crypto.randomUUID(),
-        title: "Development and Testing",
-        text: "After finalizing the design, the project moved into the development phase. The team utilized modern web technologies to build the site, followed by rigorous testing to ensure functionality and responsiveness."
+      id: crypto.randomUUID(),
+      title: "Design Finalization",
+      text: "Once wireframes were approved, the team refined the design with high-fidelity mockups, ensuring visual consistency and user-friendly layouts."
     },
     {
-        id: crypto.randomUUID(),
-        title: "Launch and Evaluation", 
-        text: "The website was launched successfully and received positive user engagement. The project was deemed a success, allowing for further enhancements based on user feedback and analytics."
+      id: crypto.randomUUID(),
+      title: "User Testing and Feedback",
+      text: "Designs were tested with users to gather insights, allowing adjustments that enhanced usability and visual appeal before final approval."
     }
-];
+  ];
+  
 
-function WordpressPortfolio() {
+function UiUxPortfolio() {
 	return (
 		<div className="aximo-project-single-section">
 			<div className="container">
@@ -30,9 +31,7 @@ function WordpressPortfolio() {
 				<div className="aximo-project-info-wrap">
 					<div className="aximo-project-info">
 						<h3>Client:</h3>
-						<h4><a href="https://brashealthcare.com/" target="_blank" rel="noopener noreferrer">
-                                Brashealthcare, Solan ,
-                            </a></h4>
+						<h4> Craftdelhi , India </h4>
 					</div>
 					<div className="aximo-project-info">
 						<h3>Date:</h3>
@@ -40,11 +39,11 @@ function WordpressPortfolio() {
 					</div>
 					<div className="aximo-project-info">
 						<h3>Duration:</h3>
-						<h4>Two Months</h4>
+						<h4>3 months  Months</h4>
 					</div>
 					<div className="aximo-project-info">
 						<h3>Cost:</h3>
-						<h4>40k Rs</h4>
+						<h4>70k Rs</h4>
 					</div>
 				</div>
 				<div className="aximo-project-single-wrap">
@@ -66,9 +65,7 @@ function WordpressPortfolio() {
 									</span>
 								</h2>
 								<p>
-								We have  developed brashealthcare as a responsive WordPress website using custom CSS, Elementor, and plugins.
-								I focused on optimizing content display for various devices to ensure a seamless user experience.
-								The project also included adding a blog section for dynamic content updates.
+                                CraftDelhi is a multi-vendor platform designed for handmade gifts, featuring 40 screens optimized across desktop, mobile, and app interfaces. The design ensures a smooth, user-friendly experience for both vendors and customers, supporting diverse screen requirements
 								</p>
 								<div className="aximo-resolve-project-wrap">
 									{projectResolveSteps.map((item, index) => (
@@ -89,4 +86,4 @@ function WordpressPortfolio() {
 	);
 }
 
-export default WordpressPortfolio;
+export default UiUxPortfolio;

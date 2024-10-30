@@ -26,6 +26,7 @@ import WordPress from "../page/service/WordpressPg.jsx";
 import ReactPage from "../page/service/ReactPg.jsx";
 import ShopifyPage from "../page/service/shopifyBc.jsx";
 import WpPortfolio from "../page/portfolio/WpPortfolio.jsx";
+import UiUxPortfolioSingle from "../page/portfolio/UiUx.jsx";
 
 export const router = createBrowserRouter([
 	{
@@ -115,13 +116,19 @@ export const router = createBrowserRouter([
 						element: <ShopifyPage/>,
 					},
 					{
-						path: "/CustomWebsite",
+						path: "/react-website",
 						element : < ReactPage/>
 					},
 					{
 						path: "/Wordpress-Portfolio",
 						element : < WpPortfolio/>
 					},
+					{
+						path: "/ui-ux-design",
+						element : < UiUxPortfolioSingle/>
+					},
+   
+
 				],
 			},
 			

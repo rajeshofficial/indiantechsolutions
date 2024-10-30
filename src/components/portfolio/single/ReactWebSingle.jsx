@@ -1,38 +1,37 @@
 
 import Single2Img from "../../../assets/images/portfolio/p_single2.png";
-import wordpressbg from "../../../assets/images/portfolio/wordpress.png"
+import DifferentEra from "../../../assets/images/portfolio/differentera.png"
 import Star2Img from "../../../assets/images/v1/star2.png";
 const projectResolveSteps = [
     {
-        id: crypto.randomUUID(),
-        title: "Concept Development",
-        text: "Based on user research and feedback, the development team outlined the key features and design elements for the website. They created wireframes and prototypes to visualize the user experience."
+      id: crypto.randomUUID(),
+      title: "Vision Creation",
+      text: "Crafted a bold concept with high-impact visuals and a minimalist layout to captivate users."
     },
     {
-        id: crypto.randomUUID(),
-        title: "Development and Testing",
-        text: "After finalizing the design, the project moved into the development phase. The team utilized modern web technologies to build the site, followed by rigorous testing to ensure functionality and responsiveness."
+      id: crypto.randomUUID(),
+      title: "Mockup Development",
+      text: "Developed sleek mockups featuring striking typography and a cohesive dark theme for a contemporary look."
     },
     {
-        id: crypto.randomUUID(),
-        title: "Launch and Evaluation", 
-        text: "The website was launched successfully and received positive user engagement. The project was deemed a success, allowing for further enhancements based on user feedback and analytics."
+      id: crypto.randomUUID(),
+      title: "Iterative Feedback",
+      text: "Gathered user feedback to refine the design, enhancing usability and visual elegance throughout the process."
     }
-];
+  ];
+  
 
-function WordpressPortfolio() {
+function Reactwebsite() {
 	return (
 		<div className="aximo-project-single-section">
 			<div className="container">
 				<div className="aximo-project-single-thumb">
-					<img src={wordpressbg} alt="Single" />
+					<img src={ DifferentEra} alt="Single" />
 				</div>
 				<div className="aximo-project-info-wrap">
 					<div className="aximo-project-info">
 						<h3>Client:</h3>
-						<h4><a href="https://brashealthcare.com/" target="_blank" rel="noopener noreferrer">
-                                Brashealthcare, Solan ,
-                            </a></h4>
+						<h4> Dffrntra , Us </h4>
 					</div>
 					<div className="aximo-project-info">
 						<h3>Date:</h3>
@@ -40,11 +39,11 @@ function WordpressPortfolio() {
 					</div>
 					<div className="aximo-project-info">
 						<h3>Duration:</h3>
-						<h4>Two Months</h4>
+						<h4>3 months  Months</h4>
 					</div>
 					<div className="aximo-project-info">
 						<h3>Cost:</h3>
-						<h4>40k Rs</h4>
+						<h4>110k Rs</h4>
 					</div>
 				</div>
 				<div className="aximo-project-single-wrap">
@@ -66,9 +65,7 @@ function WordpressPortfolio() {
 									</span>
 								</h2>
 								<p>
-								We have  developed brashealthcare as a responsive WordPress website using custom CSS, Elementor, and plugins.
-								I focused on optimizing content display for various devices to ensure a seamless user experience.
-								The project also included adding a blog section for dynamic content updates.
+                                The DFFRNTERA site features a minimalist, dark-themed design with bold typography and smooth animations, creating a modern, high-impact look. It uses scrolling effects and large, concise text blocks to showcase projects and services. This style can be recreated in React by implementing a modular layout, dark theme, and animated transitions.
 								</p>
 								<div className="aximo-resolve-project-wrap">
 									{projectResolveSteps.map((item, index) => (
@@ -89,4 +86,4 @@ function WordpressPortfolio() {
 	);
 }
 
-export default WordpressPortfolio;
+export default Reactwebsite;
