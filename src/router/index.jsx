@@ -25,6 +25,7 @@ import TestimonialPage from "../page/utility/Testimonial.jsx";
 import WordPress from "../page/service/WordpressPg.jsx";
 import ReactPage from "../page/service/ReactPg.jsx";
 import ShopifyPage from "../page/service/shopifyBc.jsx";
+import WpPortfolio from "../page/portfolio/WpPortfolio.jsx";
 
 export const router = createBrowserRouter([
 	{
@@ -116,6 +117,10 @@ export const router = createBrowserRouter([
 					{
 						path: "/CustomWebsite",
 						element : < ReactPage/>
+					},
+					{
+						path: "/Wordpress-Portfolio",
+						element : < WpPortfolio/>
 					},
 				],
 			},
