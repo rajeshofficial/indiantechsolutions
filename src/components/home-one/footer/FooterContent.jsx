@@ -20,12 +20,12 @@ function FooterContent() {
 			<div className="aximo-info-wrap">
     <div className="aximo-info">
         <ul>
-            <li>Give us a call:</li>
+            <li>Give us a call (Whatsapp):</li>
             <li>
                 <a href="tel:+919999211391">+91 9999211391 (India)</a>
             </li>
             <li>
-                <a href="tel:+447500132151">+44 7500 132151 (UK)</a>
+                <a href="tel:+447500132151">+44 7500132151 (UK)</a>
             </li>
         </ul>
     </div>

@@ -27,6 +27,7 @@ import ReactPage from "../page/service/ReactPg.jsx";
 import ShopifyPage from "../page/service/shopifyBc.jsx";
 import WpPortfolio from "../page/portfolio/WpPortfolio.jsx";
 import UiUxPortfolioSingle from "../page/portfolio/UiUx.jsx";
+import WixPage from "../page/service/wix.jsx";
 
 export const router = createBrowserRouter([
 	{
@@ -127,7 +128,11 @@ export const router = createBrowserRouter([
 						path: "/ui-ux-design",
 						element : < UiUxPortfolioSingle/>
 					},
-   
+					{
+						path: "/wix-web",
+						element : < WixPage/>
+					},
+				
 
 				],
 			},

@@ -1,4 +1,4 @@
-import Single1Img from "../../../assets/images/portfolio/p_single.png";
+import Single1Img from "../../../assets/images/portfolio/p_single.webp";
 import Single2Img from "../../../assets/images/portfolio/p_single2.png";
 import Star2Img from "../../../assets/images/v1/star2.png";
 const projectResolveSteps = [

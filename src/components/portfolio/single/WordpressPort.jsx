@@ -1,6 +1,6 @@
 
 import Single2Img from "../../../assets/images/portfolio/p_single2.png";
-import wordpressbg from "../../../assets/images/portfolio/wordpress.png"
+import wordpressbg from "../../../assets/images/portfolio/wordpress.webp"
 import Star2Img from "../../../assets/images/v1/star2.png";
 const projectResolveSteps = [
     {

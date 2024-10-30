@@ -1,49 +1,50 @@
 
 import Single2Img from "../../../assets/images/portfolio/p_single2.png";
-import DifferentEra from "../../../assets/images/portfolio/differentera.webp"
+import wixbgimage from "../../../assets/images/portfolio/wix.jpg"
 import Star2Img from "../../../assets/images/v1/star2.png";
 const projectResolveSteps = [
     {
-      id: crypto.randomUUID(),
-      title: "Vision Creation",
-      text: "Crafted a bold concept with high-impact visuals and a minimalist layout to captivate users."
-    },
-    {
-      id: crypto.randomUUID(),
-      title: "Mockup Development",
-      text: "Developed sleek mockups featuring striking typography and a cohesive dark theme for a contemporary look."
-    },
-    {
-      id: crypto.randomUUID(),
-      title: "Iterative Feedback",
-      text: "Gathered user feedback to refine the design, enhancing usability and visual elegance throughout the process."
-    }
+        id: crypto.randomUUID(),
+        title: "Layout and Navigation Setup",
+        text: "Designed a smooth, intuitive layout to highlight key salon services, enabling clients to easily find and book appointments."
+      },
+      {
+        id: crypto.randomUUID(),
+        title: "Wix Design Customization",
+        text: "Used Wix's customization tools to create a stylish, branded look, enhancing visual appeal and consistency throughout the website."
+      },
+      {
+        id: crypto.randomUUID(),
+        title: "Client-Centric Enhancements",
+        text: "Incorporated feedback-driven improvements to refine user experience, making online booking and service browsing seamless."
+      }
   ];
   
 
-function Reactwebsite() {
+function WixSingle() {
 	return (
 		<div className="aximo-project-single-section">
 			<div className="container">
 				<div className="aximo-project-single-thumb">
-					<img src={ DifferentEra} alt="Single" />
+					<img src={wixbgimage} alt="Single" />
 				</div>
 				<div className="aximo-project-info-wrap">
 					<div className="aximo-project-info">
 						<h3>Client:</h3>
-						<h4> Dffrntra , Us </h4>
+						<h4> Mane  , Burleigh, Queensland
+                        </h4>
 					</div>
 					<div className="aximo-project-info">
 						<h3>Date:</h3>
-						<h4>March</h4>
+						<h4>Jan</h4>
 					</div>
 					<div className="aximo-project-info">
 						<h3>Duration:</h3>
-						<h4>3 months  Months</h4>
+						<h4> 20 days </h4>
 					</div>
 					<div className="aximo-project-info">
 						<h3>Cost:</h3>
-						<h4>110k Rs</h4>
+						<h4>26k Rs</h4>
 					</div>
 				</div>
 				<div className="aximo-project-single-wrap">
@@ -65,7 +66,7 @@ function Reactwebsite() {
 									</span>
 								</h2>
 								<p>
-                                The DFFRNTERA site features a minimalist, dark-themed design with bold typography and smooth animations, creating a modern, high-impact look. It uses scrolling effects and large, concise text blocks to showcase projects and services. This style can be recreated in React by implementing a modular layout, dark theme, and animated transitions.
+                                Experience premium salon services with a stylish, user-friendly website designed on Wix. Our platform showcases treatments, allows easy online booking, and highlights special offers. Perfect for clients seeking a seamless, informative, and visually engaging salon experience
 								</p>
 								<div className="aximo-resolve-project-wrap">
 									{projectResolveSteps.map((item, index) => (
@@ -86,4 +87,4 @@ function Reactwebsite() {
 	);
 }
 
-export default Reactwebsite;
+export default WixSingle;

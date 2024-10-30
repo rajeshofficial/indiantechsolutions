@@ -25,6 +25,13 @@ const projectsData = [
   },
   {
     id: crypto.randomUUID(),
+    title: "WordPress Development",
+    description: "Creating highly functional and customizable WordPress websites, designed for ease of use and robust management.",
+    img: Project4Img,
+    path: "/wordpress-portfolio",
+  },
+  {
+    id: crypto.randomUUID(),
     title: "UI/UX Design",
     description: "Crafting engaging and user-friendly interfaces for websites and mobile apps, enhancing usability and experience.",
     img: Project2Img,
@@ -37,19 +44,13 @@ const projectsData = [
     img: Project3Img,
     path: "/portfolio/mobile-app-development",
   },
-  {
-    id: crypto.randomUUID(),
-    title: "WordPress Development",
-    description: "Creating highly functional and customizable WordPress websites, designed for ease of use and robust management.",
-    img: Project4Img,
-    path: "/wordpress-portfolio",
-  },
+ 
   {
     id: crypto.randomUUID(),
     title: "Wix Development",
     description: "Designing flexible, user-friendly websites using Wix for quick deployment and a strong online presence.",
     img: Project1Img,
-    path: "/portfolio/wix-development",
+    path: "wix-web",
   },
  
 ];
