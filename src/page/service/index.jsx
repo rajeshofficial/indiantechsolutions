@@ -17,10 +17,20 @@ const services = [
         id: crypto.randomUUID(),
         title: "Full Stack Development",
         description:
-            "Developing and managing both frontend and backend services, delivering seamless, high-performing applications across web and mobile platforms.",
+            "Developing and managing both frontend and backend services, delivering high-performing app across web and mobile platforms.",
         icon: "icon-branding",
-        path: "/CustomWebsite",
+        path: "/react-website",
     },
+    {
+        id: crypto.randomUUID(),
+        title: "Mobile App Development ",
+        description:
+            "Developing feature-rich and user-centric mobile applications, meticulously optimized for peak performance on both Android and iOS platforms.",
+        icon: "icon-branding",
+        path: "/mobile-app-development",
+    },
+    
+    
     {
         id: crypto.randomUUID(),
         title: "Shopify Development",
@@ -31,28 +41,22 @@ const services = [
     },
     {
         id: crypto.randomUUID(),
-        title: "Frontend Development",
+        title: "Wordpresss Development",
         description:
-            "Creating dynamic, responsive user interfaces using modern web technologies, ensuring an appealing and accessible experience for all users.",
+            "Creating dynamic, responsive user interfaces using wordpresss and wp plugins , ensuring an appealing and accessible experience for all users.",
         icon: "icon-design-thinking",
-        path: "/CustomWebsite",
+        path: "/Wordpress-Portfolio",
     },
   
     {
         id: crypto.randomUUID(),
         title: "Wix Development",
         description:
-            "Designing and customizing websites on Wix with tailored functionality, creating visually appealing sites with a seamless user experience.",
+            "Designing and customizing professional websites on Wix with tailored functionality, creating visually appealing, responsive sites with a seamless user experience.",
         icon: "icon-rating-stars-1",
-        path: "/Wordpress-Site",
+        path: "/wix-web",
     },
-    {
-        id: crypto.randomUUID(),
-        title: "Web Application Design",
-        description:
-            "Designing intuitive and responsive web applications that prioritize usability and aesthetics, enhancing functionality and user satisfaction.",
-        icon: "icon-chef",
-    },
+   
    
 ];
 

@@ -1,50 +1,50 @@
 
 import Single2Img from "../../../assets/images/portfolio/p_single2.png";
-import wixbgimage from "../../../assets/images/portfolio/wix.jpg"
+import wordpressbg from "../../../assets/images/portfolio/MobileApp.jpg"
 import Star2Img from "../../../assets/images/v1/star2.png";
 const projectResolveSteps = [
     {
-        id: crypto.randomUUID(),
-        title: "Layout and Navigation Setup",
-        text: "Designed a smooth, intuitive layout to highlight key salon services, enabling clients to easily find and book appointments."
-      },
-      {
-        id: crypto.randomUUID(),
-        title: "Wix Design Customization",
-        text: "Used Wix's customization tools to create a stylish, branded look, enhancing visual appeal and consistency throughout the website."
-      },
-      {
-        id: crypto.randomUUID(),
-        title: "Client-Centric Enhancements",
-        text: "Incorporated feedback-driven improvements to refine user experience, making online booking and service browsing seamless."
-      }
-  ];
-  
+		id: crypto.randomUUID(),
+		title: "Introductory Screen",
+		text: "Welcomes users with a clean, visually appealing start page, inviting them to begin tracking habits with a single click."
+	  },
+	  {
+		id: crypto.randomUUID(),
+		title: "Goals and Habits Organization",
+		text: "Displays a comprehensive list of daily, monthly, and yearly goals, allowing users to categorize habits and mark them as completed."
+	  },
+	  {
+		id: crypto.randomUUID(),
+		title: "Time-Based Habit Tracking",
+		text: "Includes separate sections for morning and bedtime routines, helping users focus on habits that fit their daily schedule."
+	  }
+];
 
-function WixSingle() {
+function MobileApp() {
 	return (
 		<div className="aximo-project-single-section">
 			<div className="container">
 				<div className="aximo-project-single-thumb">
-					<img src={wixbgimage} alt="Single" />
+					<img src={wordpressbg} alt="Single" />
 				</div>
 				<div className="aximo-project-info-wrap">
 					<div className="aximo-project-info">
 						<h3>Client:</h3>
-						<h4> Mane  , Burleigh, Queensland
-                        </h4>
+						<h4>
+                                Habit Tracker , UK  ,
+                            </h4>
 					</div>
 					<div className="aximo-project-info">
 						<h3>Date:</h3>
-						<h4>Jang</h4>
+						<h4>jully</h4>
 					</div>
 					<div className="aximo-project-info">
 						<h3>Duration:</h3>
-						<h4> 20 days </h4>
+						<h4>4 Months</h4>
 					</div>
 					<div className="aximo-project-info">
 						<h3>Cost:</h3>
-						<h4>26k Rs</h4>
+						<h4>270k Rs</h4>
 					</div>
 				</div>
 				<div className="aximo-project-single-wrap">
@@ -66,7 +66,7 @@ function WixSingle() {
 									</span>
 								</h2>
 								<p>
-                                Experience premium salon services with a stylish, user-friendly website designed on Wix. Our platform showcases treatments, allows easy online booking, and highlights special offers. Perfect for clients seeking a seamless, informative, and visually engaging salon experience
+								Developed a modern and intuitive habit tracker app designed to help users build and maintain positive habits. The app features a welcoming onboarding screen, a streamlined goals list for easy habit selection, and sections dedicated to morning and bedtime habits to promote time-specific routines. With its user-friendly layout, the app empowers users to track progress daily, fostering personal growth and healthy habits in a visually appealing and organized manner.
 								</p>
 								<div className="aximo-resolve-project-wrap">
 									{projectResolveSteps.map((item, index) => (
@@ -87,4 +87,4 @@ function WixSingle() {
 	);
 }
 
-export default WixSingle;
+export default MobileApp;

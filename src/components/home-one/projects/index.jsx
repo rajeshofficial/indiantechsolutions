@@ -42,7 +42,7 @@ const projectsData = [
     title: "Mobile App Development",
     description: "Developing feature-rich mobile applications optimized for performance on Android and iOS platforms.",
     img: Project3Img,
-    path: "/portfolio/mobile-app-development",
+    path: "/mobile-app-development",
   },
  
   {

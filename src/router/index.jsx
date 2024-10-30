@@ -28,6 +28,7 @@ import ShopifyPage from "../page/service/shopifyBc.jsx";
 import WpPortfolio from "../page/portfolio/WpPortfolio.jsx";
 import UiUxPortfolioSingle from "../page/portfolio/UiUx.jsx";
 import WixPage from "../page/service/wix.jsx";
+import MoblileAppPage from "../page/service/Mobileapp.jsx";
 
 export const router = createBrowserRouter([
 	{
@@ -132,7 +133,12 @@ export const router = createBrowserRouter([
 						path: "/wix-web",
 						element : < WixPage/>
 					},
-				
+					{
+						path: "/mobile-app-development",
+						element : < MoblileAppPage/>
+					},
+					
+					MoblileAppPage
 
 				],
 			},

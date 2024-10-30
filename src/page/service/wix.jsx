@@ -4,7 +4,7 @@ import WixSingle from "../../components/portfolio/single/wixSingle";
 function WixPage() {
 	return (
 		<>
-			<BreadCrumb title="wix-website" />
+			<BreadCrumb title="wix website" />
 			<WixSingle/>
 			<Testimonial />
 		</>
