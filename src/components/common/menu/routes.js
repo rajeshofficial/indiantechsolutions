@@ -5,143 +5,63 @@ export const routes = [
 	},
 	{
 		title: "About Us",
-		href: "about-us",
-	},
-	{
-		title: "Pages",
-		href: "#",
-		subRoutes: [
+		href: "",
+		subRoutes:[
 			{
 				title: "About Us",
 				href: "about-us",
 			},
 			{
-				title: "Pricing",
-				href: "pricing",
-			},
-			{
-				title: "Blog",
-				href: "#",
-				subRoutes: [
-					{
-						title: "Our Blog",
-						href: "blog",
-					},
-					{
-						title: "Blog Grid",
-						href: "blog-grid",
-					},
-					{
-						title: "Blog Details",
-						href: "single-blog",
-					},
-				],
-			},
-			{
-				title: "Service",
-				href: "#",
-				subRoutes: [
-					{
-						title: "Service",
-						href: "service",
-					},
-					{
-						title: "Service Details",
-						href: "single-service",
-					},
-				],
-			},
-			{
 				title: "Team",
-				href: "#",
-				subRoutes: [
-					{
-						title: "Team",
-						href: "team",
-					},
-					{
-						title: "Team Details",
-						href: "single-team",
-					},
-				],
+				href: "team",
 			},
 			{
-				title: "Portfolio",
-				href: "#",
-				subRoutes: [
-					{
-						title: "Portfolio One Column",
-						href: "portfolio-one",
-					},
-					{
-						title: "Portfolio Two Column",
-						href: "portfolio-two",
-					},
-					{
-						title: "Single Portfolio",
-						href: "single-portfolio",
-					},
-				],
+				title: "FAQ",
+				href: "faq",
 			},
-			{
-				title: "Utility",
-				href: "#",
-				subRoutes: [
-					{
-						title: "Faq",
-						href: "faq",
-					},
-					{
-						title: "Error 404",
-						href: "error-page",
-					},
-					{
-						title: "Testimonial",
-						href: "testimonial",
-					},
-					{
-						title: "Coming Soon",
-						href: "coming-soon",
-					},
-				],
-			},
-			{
-				title: "Account",
-				href: "#",
-				subRoutes: [
-					{
-						title: "Sign Up",
-						href: "sign-up",
-					},
-					{
-						title: "Sign In",
-						href: "sign-in",
-					},
-					{
-						title: "Reset Password",
-						href: "reset-password",
-					},
-				],
-			},
-		],
+
+		]
 	},
 	{
-		title: "Blog",
-		href: "blog",
+		title: "services",
+		href: "#",
 		subRoutes: [
 			{
-				title: "Blog",
-				href: "blog",
+				title: "React Web Development",
+				href: "React-website",
 			},
 			{
-				title: "Blog Grid",
-				href: "blog-grid",
+				title: "Shopify Ecommerce Development",
+				href: "single-portfolio",
 			},
 			{
-				title: "Blog Details",
-				href: "single-blog",
+				title: "WordPress Development",
+				href: "wordpress-portfolio",
 			},
+			{
+				title: "UI/UX Design",
+				href: "ui-ux-design",
+			},
+			{
+				title: "Mobile App Development",
+				href: "mobile-app-development",
+			},
+			{
+				title: " All Services  ",
+				href: "service",
+			},
+		
+		
+	
+		
+
+			
 		],
+	},
+	
+	{
+		title: "Portfolio",
+		href: "portfolio-two",
 	},
 	{
 		title: "Contact Us",
