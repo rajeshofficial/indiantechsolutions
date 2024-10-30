@@ -3457,11 +3457,7 @@ h1.post__title {
 		display: none;
 	}
 }
-/* @media (max-width: 992px) {
-	.aximo-hero-content h1 img {
-		display: none;
-	}
-} */
+
 .aximo-hero-content p {
 	font-size: 21px;
 	padding-right: 125px;
@@ -10316,4 +10312,28 @@ button#aximo-notified-btn {
     .footeriim {
         margin-bottom: -2.0rem !important; /* Margin for iPads */
     }
+}
+
+ /* Nav Menu and elements  */
+.aximo-header1 .site-menu-main .nav-link-item {
+    color: #21211d; /* Existing color */
+}
+
+.aximo-header1 .site-menu-main .nav-link-item:hover {
+    color: #BEF646; /* Green color on hover */
+}
+
+.site-menu-main .sub-menu--item > a {
+    color: inherit; /* Keeps the inherited color by default */
+    padding: 4px 20px;
+    font-weight: 700;
+    color: #000; /* Default color */
+    position: relative;
+}
+
+.site-menu-main .sub-menu--item > a:hover {
+	/* color: #BEF646; Green color on hover */
+	font-size: 1.1em; /* Slightly increase font size */
+    /* transform: scale(1.01);
+	background-color: #f8feec; */
 }
