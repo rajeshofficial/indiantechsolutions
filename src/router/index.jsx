@@ -29,6 +29,7 @@ import WpPortfolio from "../page/portfolio/WpPortfolio.jsx";
 import UiUxPortfolioSingle from "../page/portfolio/UiUx.jsx";
 import WixPage from "../page/service/wix.jsx";
 import MoblileAppPage from "../page/service/Mobileapp.jsx";
+import CustomWebsite from "../components/service/customWebsite.jsx"
 
 export const router = createBrowserRouter([
 	{
@@ -137,6 +138,11 @@ export const router = createBrowserRouter([
 						path: "/mobile-app-development",
 						element : < MoblileAppPage/>
 					},
+					{
+						path: "/CustomWebsite",
+						element : < CustomWebsite/>
+					},
+
 					
 					MoblileAppPage
 

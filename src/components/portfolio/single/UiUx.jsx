@@ -39,7 +39,7 @@ function UiUxPortfolio() {
 					</div>
 					<div className="aximo-project-info">
 						<h3>Duration:</h3>
-						<h4>3 months  Months</h4>
+						<h4>3  Months</h4>
 					</div>
 					<div className="aximo-project-info">
 						<h3>Cost:</h3>

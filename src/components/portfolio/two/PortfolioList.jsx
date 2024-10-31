@@ -1,11 +1,12 @@
-import Portfolio1Img from "../../../assets/images/portfolio/p_1.png";
-import Portfolio2Img from "../../../assets/images/portfolio/p_2.png";
-import Portfolio3Img from "../../../assets/images/portfolio/p_3.png";
-import Portfolio4Img from "../../../assets/images/portfolio/p_4.png";
-import Portfolio5Img from "../../../assets/images/portfolio/p_5.png";
+import Portfolio1Img from "../../../assets/images/portfolio/WebDevelopment.jpg";
+import Portfolio2Img from "../../../assets/images/portfolio/UiUx.jpg";
+import Portfolio3Img from "../../../assets/images/portfolio/mobileAppDevelopment.jpg";
+import Portfolio4Img from "../../../assets/images/portfolio/Wordpress.jpg";
+import Portfolio5Img from "../../../assets/images/portfolio/WixP.jpg";
 import Portfolio6Img from "../../../assets/images/portfolio/p_6.png";
-import Portfolio7Img from "../../../assets/images/portfolio/p_7.png";
+import Portfolio7Img from "../../../assets/images/portfolio/Shopify.jpg";
 import Portfolio8Img from "../../../assets/images/portfolio/p_8.png";
+
 import PortfolioCard from "./PortfolioCard";
 
 const portfolioListData = [
@@ -70,7 +71,12 @@ const portfolioListData = [
 
 function PortfolioList() {
 	return (
+		<>
+	
+	
 		<div className="section aximo-project-page aximo-section-padding5">
+			
+			
 			<div className="container">
 				<div className="row">
 					{portfolioListData.map((portfolio) => (
@@ -79,6 +85,7 @@ function PortfolioList() {
 				</div>
 			</div>
 		</div>
+		</>
 	);
 }
 

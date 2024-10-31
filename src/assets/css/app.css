@@ -10337,3 +10337,8 @@ button#aximo-notified-btn {
     /* transform: scale(1.01);
 	background-color: #f8feec; */
 }
+
+.aximo-section-titlecustom {
+    padding-bottom: 0px;
+    padding-top: 100px;
+}

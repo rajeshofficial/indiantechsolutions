@@ -36,7 +36,7 @@ function WixSingle() {
 					</div>
 					<div className="aximo-project-info">
 						<h3>Date:</h3>
-						<h4>Jang</h4>
+						<h4>Jan</h4>
 					</div>
 					<div className="aximo-project-info">
 						<h3>Duration:</h3>
