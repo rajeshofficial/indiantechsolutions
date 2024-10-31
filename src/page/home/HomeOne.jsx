@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import About from "../../components/home-one/about";
 import AutoSlider from "../../components/home-one/auto-slider";
 import Hero from "../../components/home-one/hero";
@@ -80,6 +81,13 @@ const teamsData = [
 function HomeOne() {
 	return (
 		<>
+
+<Helmet>
+   <title>Indian Tech Solutions - Professional Web Development & Design</title>
+   <meta name="description" content="Expert web solutions in Shopify, WordPress, Wix, and React. Specializing in website redesigns and custom development for an optimized online presence." />
+   <meta name="keywords" content="Shopify, WordPress, Wix, React, website redesign, web development, Indian Tech Solutions" />
+   <link rel="canonical" href="https://indiantecsolutions.com/home" />
+</Helmet>
 			<Hero />
 			<Services services={servicesData} />
 			<About />
