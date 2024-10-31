@@ -38,7 +38,7 @@ const servicesData = [
 		description:
 			" Improving website usability and accessibility using React, Angular, HTML, CSS, and JavaScript for seamless, dynamic user experiences",
 		icon: "icon-web",
-		path: "CustomWebsite",
+		path: "/React-website",
 	
 	},
 	{
