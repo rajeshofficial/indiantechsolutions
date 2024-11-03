@@ -8037,49 +8037,10 @@ a.forgot-password {
 	font-weight: 600;
 	margin: 0 4px;
 }
-.aximo-account-checkbox label:before {
-	content: "";
-	appearance: none;
-	-webkit-appearance: none;
-	background-color: transparent;
-	border: 1.5px solid #7f8995;
-	padding: 7px;
-	display: inline-block;
-	position: relative;
-	vertical-align: middle;
-	cursor: pointer;
-	margin-right: 10px;
-	border-radius: 3px;
-}
 
-.aximo-account-checkbox input:checked + label:after {
-	content: "";
-	display: block;
-	position: absolute;
-	top: 9px;
-	left: 6px;
-	width: 5px;
-	height: 9px;
-	border: solid var(--dark-bg);
-	border-width: 0 2px 2px 0;
-	transform: rotate(45deg);
-}
 
-button#aximo-account-btn {
-	height: 60px;
-	width: 100%;
-	font-size: 16px;
-	font-weight: 700;
-	border-radius: 50px;
-	transition: all 0.4s;
-	color: var(--white-color);
-	margin: 50px 0;
-	background-color: var(--dark-bg);
-}
-button#aximo-account-btn:hover {
-	color: var(--heading-color);
-	background-color: var(--accent-bg);
-}
+
+
 
 .aximo-or {
 	z-index: 0;
@@ -8109,24 +8070,8 @@ button#aximo-account-btn:hover {
 	background-color: #e6e6e6;
 }
 
-a.aximo-connect-login {
-	height: 60px;
-	width: 100%;
-	font-size: 16px;
-	font-weight: 700;
-	text-align: center;
-	border-radius: 50px;
-	line-height: 60px;
-	display: flex;
-	margin-bottom: 24px;
-	align-items: center;
-	justify-content: center;
-	color: var(--heading-color);
-	border: 1px solid var(--dark-bg);
-}
-a.aximo-connect-login img {
-	margin-right: 15px;
-}
+
+
 
 .aximo-account-bottom {
 	margin-top: 40px;
@@ -8144,6 +8089,8 @@ a.aximo-connect-login img {
 	padding: 200px 0 130px;
 	text-align: center;
 }
+
+
 @media (max-width: 991px) {
 	.aximo-errors-wrap {
 		padding: 170px 0 100px;
@@ -8155,20 +8102,21 @@ a.aximo-connect-login img {
 	}
 }
 .aximo-errors-thumb {
-	margin-bottom: 80px;
+	margin-bottom: 10px;
+	
 }
 @media (max-width: 991px) {
-	.aximo-errors-thumb {
-		margin-bottom: 60px;
-	}
-}
-@media (max-width: 767px) {
 	.aximo-errors-thumb {
 		margin-bottom: 40px;
 	}
 }
+@media (max-width: 767px) {
+	.aximo-errors-thumb {
+		margin-bottom: 10px;
+	}
+}
 .aximo-errors-title {
-	margin-bottom: 50px;
+	margin-bottom: 40px;
 }
 @media (max-width: 767px) {
 	.aximo-errors-title {
