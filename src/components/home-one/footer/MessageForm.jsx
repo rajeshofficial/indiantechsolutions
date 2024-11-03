@@ -2,6 +2,7 @@ import ArrowRight3Img from "../../../assets/images/icon/arrow-right3.svg";
 import { useForm } from "react-hook-form";
 import { useState, useEffect } from "react";
 import Field from "../../common/Field";
+import { Helmet } from "react-helmet-async";
 
 function MessageForm() {
   const {
@@ -50,6 +51,25 @@ function MessageForm() {
   };
 
   return (
+    <>
+    <Helmet>
+        <title>Contact Us - Indian Tech Solution | Web and Mobile App Development</title>
+        <meta
+          name="description"
+          content="Get in touch with Indian Tech Solution for expert web development and mobile app development services tailored to your business needs."
+        />
+        <meta
+          name="keywords"
+          content="Indian Tech Solution, contact us, web development agency, mobile app development agency, custom software solutions, tech support, digital transformation"
+        />
+        <meta property="og:title" content="Contact Us - Indian Tech Solution" />
+        <meta
+          property="og:description"
+          content="Reach out to Indian Tech Solution to learn how we can support your business with top-notch web and mobile app development services."
+        />
+        <meta property="og:type" content="website" />
+      </Helmet>
+
     <form onSubmit={handleSubmit(submitForm)}>
       <div className="aximo-form-field">
         <Field error={errors.name}>
@@ -99,6 +119,7 @@ function MessageForm() {
         </span>
       </button>
     </form>
+    </>
   );
 }
 

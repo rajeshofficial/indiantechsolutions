@@ -7,6 +7,7 @@ import Project5Img from "../../../assets/images/v1/project5.png";
 import ProjectCard from "./ProjectCard";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Mousewheel } from "swiper/modules";
+import { Helmet } from "react-helmet-async";
 
 const projectsData = [
   {
@@ -78,6 +79,26 @@ const swiperSettings = {
 
 function Projects() {
   return (
+
+    <>
+    <Helmet>
+      <title>Our Creative Projects | Indian Tech Solution</title>
+      <meta
+        name="description"
+        content="Explore Indian Tech Solution's diverse portfolio, including Custom Web Development, Shopify Ecommerce, WordPress Development, UI/UX Design, Mobile App Development, and Wix Development. We bring your digital ideas to life."
+      />
+      <meta
+        name="keywords"
+        content="Indian Tech Solution, Custom Web Development, Shopify Ecommerce Development, WordPress Development, UI/UX Design, Mobile App Development, Wix Development"
+      />
+      <meta property="og:title" content="Creative Projects | Indian Tech Solution" />
+      <meta
+        property="og:description"
+        content="Dive into our projects showcasing web and mobile development, eCommerce, UI/UX design, and more. Indian Tech Solution is your partner in digital success."
+      />
+      <meta property="og:type" content="website" />
+    </Helmet>
+
     <div className="section dark-bg aximo-section-padding">
       <div className="container">
         <div className="aximo-section-title center light">
@@ -102,6 +123,7 @@ function Projects() {
         </Swiper>
       </div>
     </div>
+    </>
   );
 }
 

@@ -3,6 +3,7 @@ import TwoColumnFaq from "../../components/contact/TwoColumnFaq";
 import AutoSlider from "../../components/home-one/auto-slider";
 import Services from "../../components/home-one/services";
 import WhyChooseUs from "../../components/home-one/why-choose-us";
+import { Helmet } from "react-helmet-async";
 
 const services = [
     {
@@ -63,6 +64,24 @@ const services = [
 function ServicePage() {
 	return (
 		<>
+         
+            <Helmet>
+                <title>Our Services | Indian Tech Solution</title>
+                <meta
+                    name="description"
+                    content="Explore our wide range of services including UI/UX design, full-stack development, mobile app development, and more to elevate your digital presence."
+                />
+                <meta
+                    name="keywords"
+                    content="UI/UX Design, Full Stack Development, Mobile App Development, Shopify Development, WordPress Development, Wix Development, Indian Tech Solution"
+                />
+                <meta property="og:title" content="Our Services | Indian Tech Solution" />
+                <meta
+                    property="og:description"
+                    content="Discover top-notch services at Indian Tech Solution: UI/UX design, mobile app development, Shopify customization, and more."
+                />
+                <meta property="og:type" content="website" />
+            </Helmet>
 			<BreadCrumb title="Service" />
 			<Services services={services} />
 			<AutoSlider />

@@ -3,6 +3,7 @@ import Portfolio2Img from "../../../assets/images/portfolio/p_2.png";
 import Portfolio3Img from "../../../assets/images/portfolio/p_3.png";
 import PortfolioCard from "./PortfolioCard";
 import Star2Img from "../../../assets/images/v1/star2.png";
+import { Helmet } from "react-helmet-async";
 const portfolioListData = [
 	{
 		id: crypto.randomUUID(),
@@ -25,6 +26,24 @@ const portfolioListData = [
 ];
 function PortfolioList() {
 	return (
+		<>
+		<Helmet>
+			<title>Our Creative Web Projects | Indian Tech Solution</title>
+			<meta
+				name="description"
+				content="Explore our portfolio showcasing product design, branding, and app UI/UX design projects. See how Indian Tech Solution brings creativity to web solutions."
+			/>
+			<meta
+				name="keywords"
+				content="Indian Tech Solution, portfolio, product design, branding, UI/UX design, creative web projects"
+			/>
+			<meta property="og:title" content="Our Creative Web Projects | Indian Tech Solution" />
+			<meta
+				property="og:description"
+				content="Discover our creative portfolio with projects in product design, branding, and UI/UX design. We bring innovation and functionality to web solutions."
+			/>
+			<meta property="og:type" content="website" />
+		</Helmet>
 		<div className="aximo-project-one-column">
 			<div className="container">
 				<div className="aximo-section-title center">
@@ -43,6 +62,7 @@ function PortfolioList() {
 				))}
 			</div>
 		</div>
+		</>
 	);
 }
 

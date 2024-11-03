@@ -1,6 +1,22 @@
 import Star2Img from "../../assets/images/v1/star2.png";
+import { Helmet } from "react-helmet-async";
 function FaqAccordion() {
 	return (
+		<>
+		<Helmet>
+				<title>FAQs - Learn More About Our Web and Mobile App Agency - Indian tech solution </title>
+				<meta
+					name="description"
+					content="Find answers to frequently asked questions about our services, industries served, design process, and more - Indian tech solution "
+				/>
+				<meta name="keywords" content="FAQs, web design, mobile app, design agency, services" />
+				<meta property="og:title" content="FAQs - Learn More About Our Web and Mobile App Agency" />
+				<meta
+					property="og:description"
+					content="Discover answers to common questions about our web and mobile app design services, process, portfolio, and client support - - Indian tech solution ."
+				/>
+				<meta property="og:type" content="website" />
+			</Helmet>
 		<div className="section aximo-section-padding3">
 			<div className="container">
 				<div className="aximo-section-title center">
@@ -151,6 +167,7 @@ function FaqAccordion() {
 				</div>
 			</div>
 		</div>
+		</>
 	);
 }
 
