@@ -4,11 +4,11 @@ import StarImg from "../../../assets/images/v1/star.png";
 import User1Img from "../../../assets/images/v1/user1.png";
 import User2Img from "../../../assets/images/v1/user2.png";
 import User3Img from "../../../assets/images/v1/user3.png";
-import { Helmet } from "react-helmet-async";
+// import { Helmet } from "react-helmet-async";
 function HeroContent() {
 	return (
 		<>
-		<Helmet>
+		{/* <Helmet>
 				<title>Indian Tech Solution | One-Stop Web & Mobile App Development</title>
 				<meta
 					name="description"
@@ -24,7 +24,7 @@ function HeroContent() {
 					content="Get comprehensive web solutions with Indian Tech Solution. Specializing in React, Angular, Shopify, WordPress, and Wix for standout digital experiences."
 				/>
 				<meta property="og:type" content="website" />
-			</Helmet>
+			</Helmet> */}
 		<div className="aximo-hero-content">
 			<h1>
 				<span className="aximo-title-animation">

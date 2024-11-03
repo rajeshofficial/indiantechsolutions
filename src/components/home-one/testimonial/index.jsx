@@ -4,7 +4,7 @@ import Thumb2Img from "../../../assets/images/v1/t_thumb2.png";
 import Thumb3Img from "../../../assets/images/v1/t_thumb3.png";
 import Thumb4Img from "../../../assets/images/v1/t_thumb4.png";
 import TestimonialCard from "./TestimonialCard";
-import { Helmet } from "react-helmet-async";
+// import { Helmet } from "react-helmet-async";
 
 const testimonialsData = [
 	{
@@ -52,7 +52,7 @@ const testimonialsData = [
 function Testimonial() {
 	return (
 		<>
-			<Helmet>
+			{/* <Helmet>
 				<title>Client Testimonials | Indian Tech Solution</title>
 				<meta
 					name="description"
@@ -68,7 +68,7 @@ function Testimonial() {
 					content="Our clients appreciate our commitment to excellence in web development, Shopify customization, and innovative solutions that drive success."
 				/>
 				<meta property="og:type" content="website" />
-			</Helmet>
+			</Helmet> */}
 		<div className="section aximo-section-padding3">
 			<div className="container">
 				<div className="aximo-section-title center">

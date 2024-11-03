@@ -1,12 +1,12 @@
 import Star2Img from "../../../assets/images/v1/star2.png";
 import ServiceCard from "./ServiceCard";
-import { Helmet } from "react-helmet-async";
+// import { Helmet } from "react-helmet-async";
 
 
 function Services({ services }) {
 	return (
 		<>
-		<Helmet>
+		{/* <Helmet>
 			<title>Effective Web Solutions | Indian Tech Solution</title>
 			<meta
 				name="description"
@@ -22,7 +22,7 @@ function Services({ services }) {
 				content="Discover our comprehensive range of web solutions designed to elevate your digital presence, including web development, app development, and design services."
 			/>
 			<meta property="og:type" content="website" />
-		</Helmet>
+		</Helmet> */}
 		<div className="section aximo-section-padding4">
 			<div className="container">
 				<div className="aximo-section-title center">

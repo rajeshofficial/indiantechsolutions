@@ -7,7 +7,7 @@ import Project5Img from "../../../assets/images/v1/project5.png";
 import ProjectCard from "./ProjectCard";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Mousewheel } from "swiper/modules";
-import { Helmet } from "react-helmet-async";
+// import { Helmet } from "react-helmet-async";
 
 const projectsData = [
   {
@@ -81,7 +81,7 @@ function Projects() {
   return (
 
     <>
-    <Helmet>
+    {/* <Helmet>
       <title>Our Creative Projects | Indian Tech Solution</title>
       <meta
         name="description"
@@ -97,7 +97,7 @@ function Projects() {
         content="Dive into our projects showcasing web and mobile development, eCommerce, UI/UX design, and more. Indian Tech Solution is your partner in digital success."
       />
       <meta property="og:type" content="website" />
-    </Helmet>
+    </Helmet> */}
 
     <div className="section dark-bg aximo-section-padding">
       <div className="container">

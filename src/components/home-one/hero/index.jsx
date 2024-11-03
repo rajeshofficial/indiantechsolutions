@@ -1,12 +1,12 @@
 import HeroContent from "./HeroContent";
 import HeroThumbs from "./HeroThumbs";
-import { Helmet } from "react-helmet-async";
+// import { Helmet } from "react-helmet-async";
 
 function HeroSection() {
 
 	return (
 		<>
-		<Helmet>
+		{/* <Helmet>
 				<title>Indian Tech Solution | Leading Web & Mobile App Development Agency</title>
 				<meta
 					name="description"
@@ -22,7 +22,7 @@ function HeroSection() {
 					content="Transform your business with Indian Tech Solution's cutting-edge web and mobile app development services, specializing in React, Angular, Shopify, and WordPress."
 				/>
 				<meta property="og:type" content="website" />
-			</Helmet>
+			</Helmet> */}
 		<div className="aximo-hero-section dark-bg">
 			<div className="container position-relative">
 				<div className="row">

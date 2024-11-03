@@ -13,6 +13,7 @@ import Team6Img from "../../assets/images/team/team6.png";
 import Team7Img from "../../assets/images/team/team7.png";
 import Team8Img from "../../assets/images/team/team8.png";
 import Team9Img from "../../assets/images/team/team9.png";
+import { Helmet } from "react-helmet-async";
 
 const teamsData = [
 	{
@@ -74,6 +75,15 @@ const teamsData = [
 function Team() {
 	return (
 		<>
+		
+			<Helmet>
+				<title>Our Team | Company Name</title>
+				<meta
+					name="description"
+					content="Meet our talented team members who drive our success. Learn about our team's expertise in development, design, and leadership."
+				/>
+				<meta name="keywords" content="Our Team, Team Members, Company Staff" />
+			</Helmet>
 			<BreadCrumb title="Our Team" />
 			<Teams teams={teamsData} />
 		</>
