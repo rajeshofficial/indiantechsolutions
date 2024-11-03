@@ -7386,8 +7386,13 @@ img.aximo-video-circle {
 	margin-bottom: 24px;
 	border: 5px solid var(--dark-bg);
 }
-.aximo-project-page .aximo-project-thumb::before {
+/* .aximo-project-page .aximo-project-thumb::before {
 	opacity: 0;
+} */
+
+/* To remove dark overlay up */
+.aximo-project-page .aximo-project-thumb::before {
+	opacity: 1;
 }
 .aximo-project-page .aximo-project-thumb:hover:before {
 	opacity: 1;
@@ -7396,10 +7401,18 @@ img.aximo-video-circle {
 	opacity: 1;
 	visibility: visible;
 }
-.aximo-project-page .aximo-project-wrap {
+/* .aximo-project-page .aximo-project-wrap {
 	opacity: 0;
 	transition: all 0.4s;
 	visibility: hidden;
+} */
+
+/* to remove hover  */
+
+.aximo-project-page .aximo-project-wrap {
+	opacity: 1;
+	transition: all 0.4s;
+	visibility: visible;
 }
 
 .aximo-project-one-column {
