@@ -1,31 +1,41 @@
+import React from "react";
+import { Helmet } from "react-helmet-async";
 function StoryContent() {
 	return (
+		<>
+		 <Helmet>
+                <title>Our Vision & Mission - Indian Tech Solutions</title>
+                <meta
+                    name="description"
+                    content="We start by getting to know your business inside and out. Once we understand your specific needs, we craft a tailored design system using best practices to make your brand stand out "
+                />
+                <meta
+                    name="keywords"
+                    content="Indian Tech Solutions, business empowerment, creative design solutions, digital success, brand experiences, mission and vision"
+                />
+                <meta name="robots" content="index, follow" />
+            </Helmet>
 		<div className="row">
 			<div className="col-lg-6">
 				<h3>Our core vision</h3>
 				<p>
-					Empowering businesses to create impactful and visually stunning brand experiences that captivate
-					audiences and drive success in the digital age.{" "}
+				Helping businesses craft memorable and visually captivating brand experiences that engage audiences and fuel success in today’s digital world..{" "}
 				</p>
 				<p>
-					Our team consists of experienced designers, developers. We have a wide variety of skills and
-					backgrounds, allowing us to tackle projects of all sizes and complexities. We believe in the power
-					of imagination and innovation.
+				Our team consists of talented designers and developers with a broad range of expertise and backgrounds, equipping us to take on projects of any size and complexity. We’re inspired by creativity and innovation, bringing fresh ideas and solutions to every challenge
 				</p>
 			</div>
 			<div className="col-lg-6">
 				<h3>Our main mission</h3>
 				<p>
-					Our mission is to collaborate with businesses of all sizes, from startups to established brands, to
-					provide innovative and creative design solutions.{" "}
+				Our mission is to partner with businesses of all sizes—whether startups or established brands—to deliver innovative and custom design solutions that elevate their digital presence{" "}
 				</p>
 				<p>
-					We are committed to creating websites and mobile app  that inspire, connect & our clients in the marketplace. Our
-					focus is on understanding. Our clients' unique needs and delivery designs that not only meet but
-					exceed their expectations.
+				We are dedicated to developing websites and mobile applications that inspire and connect our clients with their audiences in the marketplace. By focusing on understanding each client’s unique needs, we deliver designs that not only meet but also exceed expectations.
 				</p>
 			</div>
 		</div>
+		</>
 	);
 }
 

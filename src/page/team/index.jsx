@@ -17,44 +17,44 @@ import Team9Img from "../../assets/images/team/team9.png";
 const teamsData = [
 	{
 		id: crypto.randomUUID(),
-		name: "Andrew Mark",
-		designation: "Creative Director",
+		name: "Rajesh Singh ",
+		designation: "Frontend developer ",
 		img: Team1Img,
 	},
 	{
 		id: crypto.randomUUID(),
-		name: "Jack Taylor",
-		designation: "Senior Designer",
+		name: "Ritik Mehta ",
+		designation: "Wordpress developer ",
 		img: Team2Img,
 	},
 	{
 		id: crypto.randomUUID(),
-		name: "Martine Joy",
-		designation: "Project Manager",
+		name: "Shivam",
+		designation: "Full stack Developer ",
 		img: Team3Img,
 	},
 	{
 		id: crypto.randomUUID(),
-		name: "Adam Straw",
-		designation: "Web Developer",
+		name: "Tanveeh Ahmed ",
+		designation: "Ui uX designer ",
 		img: Team4Img,
 	},
 	{
 		id: crypto.randomUUID(),
-		name: "William Jack",
+		name: "Raghav Mittal",
 		designation: "Creative Director",
 		img: Team5Img,
 	},
 	{
 		id: crypto.randomUUID(),
-		name: "Alex Tom",
+		name: "Shivani verma ",
 		designation: "UI/UX Designer",
 		img: Team6Img,
 	},
 	{
 		id: crypto.randomUUID(),
-		name: "Robin Lesser",
-		designation: "Chief Executive Officer",
+		name: " vishal yadav",
+		designation: "product manager ",
 		img: Team7Img,
 	},
 	{
@@ -65,28 +65,11 @@ const teamsData = [
 	},
 	{
 		id: crypto.randomUUID(),
-		name: "Mark Strew",
+		name: "Anju Rawat",
 		designation: "UI Designer",
 		img: Team9Img,
 	},
-	{
-		id: crypto.randomUUID(),
-		name: "Fradik Hazbag",
-		designation: "Researcher",
-		img: Team10Img,
-	},
-	{
-		id: crypto.randomUUID(),
-		name: "Sam Kainiz",
-		designation: "Lead Developer",
-		img: Team11Img,
-	},
-	{
-		id: crypto.randomUUID(),
-		name: "Mac Jackson",
-		designation: "Marketing Expert",
-		img: Team12Img,
-	},
+	
 ];
 function Team() {
 	return (

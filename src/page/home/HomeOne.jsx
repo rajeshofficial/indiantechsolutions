@@ -86,7 +86,7 @@ function HomeOne() {
    <title>Indian Tech Solutions - Professional Web Development & Design</title>
    <meta name="description" content="Expert web solutions in Shopify, WordPress, Wix, and React. Specializing in website redesigns and custom development for an optimized online presence." />
    <meta name="keywords" content="Shopify, WordPress, Wix, React, website redesign, web development, Indian Tech Solutions" />
-   <link rel="canonical" href="https://indiantecsolutions.com/home" />
+   <link rel="canonical" href="https://indiantecsolutions.com" />
 </Helmet>
 			<Hero />
 			<Services services={servicesData} />
