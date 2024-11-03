@@ -1,11 +1,12 @@
 import BreadCrumb from "../../components/common/Breadcrumb";
 import Projects from "../../components/home-one/projects";
 import PortfolioDetails from "../../components/portfolio/single/PortfolioDetails";
+import { Helmet } from "react-helmet-async";
 function SinglePortfolio() {
 	return (
 		<>
 		<Helmet>
-				<title>Portfolio Details - Indian tech solutions </title>
+				<title>Shopify Ecommerce - Indian tech solutions </title>
 				<meta 
 					name="description" 
 					content="Explore our portfolio showcasing expertise in web and mobile app development. Discover projects demonstrating innovation, design, and technical excellence." 
@@ -15,7 +16,7 @@ function SinglePortfolio() {
 					content="web development, mobile app development, portfolio, projects, digital solutions, UI/UX design, software development" 
 				/>
 			</Helmet>
-			<BreadCrumb title="Portfolio Deatails" />
+			<BreadCrumb title="Shopify Ecommerce " />
 			<PortfolioDetails />
 			<Projects />
 		</>

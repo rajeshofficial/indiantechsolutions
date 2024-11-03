@@ -2,6 +2,7 @@
 import Single2Img from "../../../assets/images/portfolio/p_single2.png";
 import wordpressbg from "../../../assets/images/portfolio/MobileApp.jpg"
 import Star2Img from "../../../assets/images/v1/star2.png";
+import { Helmet } from "react-helmet-async";
 const projectResolveSteps = [
     {
 		id: crypto.randomUUID(),
@@ -22,6 +23,20 @@ const projectResolveSteps = [
 
 function MobileApp() {
 	return (
+
+		<>
+		<Helmet>
+    <title>Habit Tracker Mobile App - indian tech solutions </title>
+    <meta name="description" content="A modern, intuitive habit tracker app designed for organizing and maintaining positive habits, with time-based tracking for optimal routine management." />
+    <meta name="keywords" content="habit tracker, mobile app, project, portfolio, daily goals, time-based tracking, morning routine, bedtime habits, productivity app, goal setting" />
+    <meta name="author" content="Rajesh Singh " />
+    <meta property="og:title" content="Habit Tracker Mobile App - Indian Tech solutions " />
+    <meta property="og:description" content="Explore the details of a modern and intuitive habit tracker app, designed to help users organize and maintain habits with time-based tracking and comprehensive goal management." />
+  
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.indiantechsolutions.com/mobile-app-development" />
+ 
+</Helmet>
 		<div className="aximo-project-single-section">
 			<div className="container">
 				<div className="aximo-project-single-thumb">
@@ -84,6 +99,7 @@ function MobileApp() {
 				</div>
 			</div>
 		</div>
+		</>
 	);
 }
 

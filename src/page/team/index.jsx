@@ -77,7 +77,7 @@ function Team() {
 		<>
 		
 			<Helmet>
-				<title>Our Team | Company Name</title>
+				<title>Our Team - Indian Tech solutions </title>
 				<meta
 					name="description"
 					content="Meet our talented team members who drive our success. Learn about our team's expertise in development, design, and leadership."

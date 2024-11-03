@@ -1,6 +1,7 @@
 import Single1Img from "../../../assets/images/portfolio/p_single.webp";
 import Single2Img from "../../../assets/images/portfolio/p_single2.png";
 import Star2Img from "../../../assets/images/v1/star2.png";
+import { Helmet } from "react-helmet-async";
 const projectResolveSteps = [
     {
         id: crypto.randomUUID(),
@@ -21,6 +22,21 @@ const projectResolveSteps = [
 
 function PortfolioDetails() {
 	return (
+		<>
+		<Helmet>
+		<title>Shopify E-commerce Solutions | Indian Tech Solutions</title>
+    <meta name="description" content="Explore modern Shopify e-commerce solutions by Indian Tech Solutions. We provide comprehensive services to create and optimize your online store for better user experience and increased sales." />
+    <meta name="keywords" content="Shopify, e-commerce, Indian Tech Solutions, online store, web development, Shopify customization, e-commerce solutions, digital store setup, online retail, SEO for e-commerce" />
+    <meta name="author" content="Indian Tech Solutions" />
+
+		<meta name="author" content="Rajesh Singh " />
+		<meta property="og:title" content="Habit Tracker Mobile App - Indian Tech solutions " />
+		<meta property="og:description" content="Explore the details of a modern and intuitive habit tracker app, designed to help users organize and maintain habits with time-based tracking and comprehensive goal management." />
+	  
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="https://www.indiantechsolutions.com/single-portfolio" />
+	 
+	</Helmet>
 		<div className="aximo-project-single-section">
 			<div className="container">
 				<div className="aximo-project-single-thumb">
@@ -83,6 +99,7 @@ function PortfolioDetails() {
 				</div>
 			</div>
 		</div>
+		</>
 	);
 }
 

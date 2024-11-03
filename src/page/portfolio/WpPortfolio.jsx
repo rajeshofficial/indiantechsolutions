@@ -4,7 +4,7 @@ import WordpressPortfolio from "../../components/portfolio/single/WordpressPort"
 function WpPortfolio() {
 	return (
 		<>
-			<BreadCrumb title=" Wordpress Portfolio " />
+			<BreadCrumb title=" Wordpress Portfolio - bras health care " />
 			<WordpressPortfolio />
 			<Projects />
 		</>
