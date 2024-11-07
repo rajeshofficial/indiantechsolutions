@@ -1,5 +1,5 @@
 import { createBrowserRouter } from "react-router-dom";
-import LayoutEight from "../components/layout/LayoutEight.jsx";
+
 
 import LayoutOne from "../components/layout/LayoutOne.jsx";
 
@@ -142,6 +142,10 @@ export const router = createBrowserRouter([
 						path: "/CustomWebsite",
 						element : < CustomWebsite/>
 					},
+					{
+						path: "/coming-soon",
+						element: <CommingSoon />,
+					},
 
 					
 					MoblileAppPage
@@ -149,17 +153,7 @@ export const router = createBrowserRouter([
 				],
 			},
 			
-			{
-				path: "/",
-				element: <LayoutEight />,
-				children: [
-					{
-						path: "/coming-soon",
-						element: <CommingSoon />,
-					},
-					
-				],
-			},
+		
 		],
 	},
 ]);
