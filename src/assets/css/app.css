@@ -10333,8 +10333,9 @@ button#aximo-notified-btn {
 	color: #000 !important ;
 }
 
-.button-container button:active {
-	background-color: #3c3c3a; /* Even darker green on click */
-	transform: translateY(0); /* Reset lift effect on click */
+
+.aximo-default-btn.active {
+	background-color: #bff747; /* Darker green on hover */
 	color: #000 !important ;
-}
+	
+  }

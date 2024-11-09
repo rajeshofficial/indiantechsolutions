@@ -53,7 +53,7 @@ function ContactInfo() {
 							</div>
 							<div className="aximo-contact-info-data">
 								<span> Indian Office address</span>
-								<p> Rohini - Delhi , India </p>
+								<p> Sector-24, Rohini, Delhi, India </p>
 							
 							</div>
 						</div>
@@ -66,7 +66,7 @@ function ContactInfo() {
 							<div className="aximo-contact-info-data">
 								<span>UK Office address</span>
 							
-								<p>Burton On trend - England </p>
+								<p> Burton-on-Trent, UK								</p>
 							</div>
 						</div>
 					</div>

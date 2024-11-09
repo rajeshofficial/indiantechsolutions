@@ -3,49 +3,60 @@ import GoogleMapReact from "google-map-react";
 import LocationPin from "./LocationPin";
 
 function GoogleMap() {
-	// Define coordinates for the two locations
-	const indianLocation = { lat: 28.6139, lng: 77.2090 }; // Delhi, India
-	const ukLocation = { lat: 51.5074, lng: -0.1278 }; // London, UK
+  // Define coordinates for the two locations
+  const indianLocation = { lat: 28.7371, lng: 77.0672 }; // Sector-24, Rohini, Delhi, India
 
-	// Use state to track the current location
-	const [location, setLocation] = useState({
-		center: indianLocation,
-		zoom: 11, // Adjust zoom level as needed
-	});
+  const ukLocation = { lat: 52.8010, lng: -1.6367 }; // Burton-on-Trent, UK
 
-	// Update location based on the selected button
-	const showIndianLocation = () => {
-		setLocation({ center: indianLocation, zoom: 11 });
-	};
+  // Use state to track the current location and active button
+  const [location, setLocation] = useState({
+    center: indianLocation,
+    zoom: 11, // Adjust zoom level as needed
+  });
+  const [activeLocation, setActiveLocation] = useState("India"); // Initial active location
 
-	const showUKLocation = () => {
-		setLocation({ center: ukLocation, zoom: 11 });
-	};
+  // Update location and active button based on the selected location
+  const showIndianLocation = () => {
+    setLocation({ center: indianLocation, zoom: 11 });
+    setActiveLocation("India");
+  };
 
-	return (
-		<div className="section">
-			<div className="container">
-				
-				
-				<div className="aximo-map-wrap">
-					<div id="map">
-						<GoogleMapReact
-							bootstrapURLKeys={{ key: "AIzaSyBHMkWn3dgHZnjmpxRGul1N5P7kyDZlEfQ" }}
-							center={location.center}
-							zoom={location.zoom}
-						>
-							<LocationPin lat={location.center.lat} lng={location.center.lng} />
-						</GoogleMapReact>
-					</div>
-					<div className="button-container">
-				<button className="aximo-default-btn"   onClick={showIndianLocation}>Indian Address</button>
-					<button className="aximo-default-btn" onClick={showUKLocation}>UK Address</button>
-				</div>
-				</div>
-				
-			</div>
-		</div>
-	);
+  const showUKLocation = () => {
+    setLocation({ center: ukLocation, zoom: 11 });
+    setActiveLocation("UK");
+  };
+
+  return (
+    <div className="section">
+      <div className="container">
+        <div className="aximo-map-wrap">
+          <div id="map">
+            <GoogleMapReact
+              bootstrapURLKeys={{ key: "AIzaSyBHMkWn3dgHZnjmpxRGul1N5P7kyDZlEfQ" }}
+              center={location.center}
+              zoom={location.zoom}
+            >
+              <LocationPin lat={location.center.lat} lng={location.center.lng} />
+            </GoogleMapReact>
+          </div>
+          <div className="button-container">
+            <button
+              className={`aximo-default-btn ${activeLocation === "India" ? "active" : ""}`}
+              onClick={showIndianLocation}
+            >
+              Indian Address
+            </button>
+            <button
+              className={`aximo-default-btn ${activeLocation === "UK" ? "active" : ""}`}
+              onClick={showUKLocation}
+            >
+              UK Address
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
 }
 
 export default GoogleMap;
