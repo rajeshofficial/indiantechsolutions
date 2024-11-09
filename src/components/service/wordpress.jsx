@@ -1,8 +1,21 @@
 import SingleImg from "../../assets/images/service/service-single.png";
 import Star2Img from "../../assets/images/v1/star2.png";
 import WorkingApproach from "./WorkingApproach";
+import { Helmet } from "react-helmet-async";
 function WordPress() {
 	return (
+		<> <Helmet>
+		<title>WordPress Website Development | YourWebsiteName</title>
+		<meta
+		  name="description"
+		  content="Professional WordPress development services for modern websites. Build customizable and user-friendly websites with powerful CMS features."
+		/>
+		<meta
+		  name="keywords"
+		  content="WordPress, Website Development, CMS, WordPress Customization, WordPress Themes, WordPress Plugins"
+		/>
+	  </Helmet>
+	
 		<div className="section aximo-section-padding2 pb-0">
 			<div className="container">
 				<div className="aximo-service-details-wrap">
@@ -70,6 +83,7 @@ function WordPress() {
 				</div>
 			</div>
 		</div>
+		</>
 	);
 }
 

@@ -1,5 +1,7 @@
 import Single2Img from "../../assets/images/service/service-single2.png";
 import Star2Img from "../../assets/images/v1/star2.png";
+import { Helmet } from "react-helmet-async";
+
 
 const workingApprochData = [
 	{
@@ -26,6 +28,18 @@ const workingApprochData = [
 ];
 function WorkingApproach() {
 	return (
+		<> 
+		<Helmet>
+  <title>Our Working Approach | YourCompanyName</title>
+  <meta
+    name="description"
+    content="Explore our approach to UI/UX design, including research, competitor analysis, user interface implementation, and post-launch improvements."
+  />
+  <meta
+    name="keywords"
+    content="UI/UX Design, User Interface, Competitor Analysis, Post-Launch, Working Approach, Design Process"
+  />
+</Helmet>
 		<div className="row">
 			<div className="col-lg-5 offset-lg-1 order-lg-1">
 				<div className="aximo-service-details-thumb2 ">
@@ -66,6 +80,7 @@ function WorkingApproach() {
 				</div>
 			</div>
 		</div>
+		</>
 	);
 }
 

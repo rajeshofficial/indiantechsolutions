@@ -1,8 +1,16 @@
 import SingleImg from "../../assets/images/service/Custom.png";
 import Star2Img from "../../assets/images/v1/star2.png";
 import WorkingApproach from "./WorkingApproach";
+import { Helmet } from "react-helmet-async";
 function CustomWebsite() {
 	return (
+        <>       {/* Helmet for SEO and page metadata */}
+        <Helmet>
+          <title>Custom Website Development | YourWebsiteName</title>
+          <meta name="description" content="Build a custom website with React and Angular for speed, flexibility, and ease of use. Perfect for all business sizes." />
+          <meta name="keywords" content="Custom Website, React, Angular, Web Development, Business Websites" />
+        </Helmet>
+
 		<div className="section aximo-section-padding2 pb-0">
 			<div className="container">
 				<div className="aximo-service-details-wrap">
@@ -71,7 +79,9 @@ function CustomWebsite() {
 				</div>
 			</div>
 		</div>
+        </>
 	);
+   
 }
 
 export default CustomWebsite ;

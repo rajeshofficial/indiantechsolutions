@@ -6,6 +6,13 @@ import PricingPlan from "../components/pricing/PricingPlan";
 function Pricing() {
 	return (
 		<>
+		<Helmet>
+        <title>Pricing - Indian Tech Solutions </title>
+        <meta name="description" content="Explore our pricing plans  for website development  ." />
+		<meta name="keywords" content="Indian Tech Solutions, website development price , website making price , website price " />
+		
+      </Helmet>
+
 			<BreadCrumb title="Pricing" />
 			<PricingPlan />
 			<Testimonial />

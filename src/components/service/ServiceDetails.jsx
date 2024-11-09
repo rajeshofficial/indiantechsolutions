@@ -1,8 +1,21 @@
 import UiUx from "../../assets/images/service/UiUx.png";
 import Star2Img from "../../assets/images/v1/star2.png";
 import WorkingApproach from "./WorkingApproach";
+import { Helmet } from "react-helmet-async";
 function ServiceDetails() {
 	return (
+		<> <Helmet>
+        <title>UI/UX Design Services | YourWebsiteName</title>
+        <meta
+          name="description"
+          content="Explore our UI/UX design services to create visually engaging and user-friendly products. Enhance your digital presence with expertly crafted UI and UX."
+        />
+        <meta
+          name="keywords"
+          content="UI UX, User Interface, User Experience, Product Development, Web Design, App Design"
+        />
+      </Helmet>
+
 		<div className="section aximo-section-padding2 pb-0">
 		
 			<div className="container">
@@ -81,6 +94,7 @@ function ServiceDetails() {
 				</div>
 			</div>
 		</div>
+		</>
 	);
 }
 

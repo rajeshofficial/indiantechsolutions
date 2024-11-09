@@ -2,9 +2,21 @@
 import shopifyImgBG from "../../assets/images/service/Shopify.png"
 import Star2Img from "../../assets/images/v1/star2.png";
 import WorkingApproach from "./WorkingApproach";
+import { Helmet } from "react-helmet-async";
 function ShopifyEcom() {
 	return (
-		
+        <>
+		 <Helmet>
+        <title>Shopify Ecommerce Website Development | YourWebsiteName</title>
+        <meta
+          name="description"
+          content="Expert Shopify e-commerce development services to create a powerful, visually stunning online store. Customize and manage your Shopify store with ease."
+        />
+        <meta
+          name="keywords"
+          content="Shopify, E-commerce, Online Store, Shopify Development, E-commerce Website, Shopify Customization"
+        />
+      </Helmet>
 		<div className="section aximo-section-padding2 pb-0">
 			
 			<div className="container">
@@ -75,6 +87,7 @@ function ShopifyEcom() {
 				</div>
 			</div>
 		</div>
+        </>
 	);
 }
 

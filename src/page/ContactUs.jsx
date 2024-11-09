@@ -16,7 +16,7 @@ function ContactUs() {
 		<>
 		 <Helmet>
                 <title>Contact Us | Indian Tech Solutions</title>
-                <meta name="description" content="Get in touch with Indian Tech Solutions for expert web development and design services. Contact us for inquiries, support, or to discuss your project needs." />
+                <meta name="description" content="Contact Us - indian tech solutions " />
                 <meta name="keywords" content="Indian Tech Solutions, contact, web development, web design, business inquiries, support" />
             </Helmet>
 			<BreadCrumb title="Contact Us" />
