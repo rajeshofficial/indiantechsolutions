@@ -1,7 +1,7 @@
 import BreadCrumb from "../components/common/Breadcrumb";
 import ContactForm from "../components/contact/ContactForm";
 import ContactInfo from "../components/contact/ContactInfo";
-// import GoogleMap from "../components/contact/GoogleMap";
+import GoogleMap from "../components/contact/GoogleMap";
 import TwoColumnFaq from "../components/contact/TwoColumnFaq";
 import { Helmet } from 'react-helmet-async'
 function ContactUs() {
@@ -22,7 +22,7 @@ function ContactUs() {
 			<BreadCrumb title="Contact Us" />
 			<ContactForm />
 			<ContactInfo />
-			{/* <GoogleMap location={location} /> */}
+			<GoogleMap location={location} />
 			<TwoColumnFaq />
 		</>
 	);

@@ -40,7 +40,7 @@ function ContactInfo() {
 								<div className="aximo-contact-info-data">
 									<span>Mail us at </span>
 									<p>Info@indiantechsolutions.com</p>
-								<p>&</p>
+						
 									<p>Rscdraj@gmail.com</p>
 								</div>
 							</div>
@@ -52,9 +52,21 @@ function ContactInfo() {
 								<img src={MapImg} alt="Map" />
 							</div>
 							<div className="aximo-contact-info-data">
-								<span>Office address</span>
-								<p> Rohini , Delhi , India  & </p>
-								<p>Burton On trend , England </p>
+								<span> Indian Office address</span>
+								<p> Rohini - Delhi , India </p>
+							
+							</div>
+						</div>
+					</div>
+					<div className="col-xl-4 col-md-6">
+						<div className="aximo-contact-info-box">
+							<div className="aximo-contact-info-icon">
+								<img src={MapImg} alt="Map" />
+							</div>
+							<div className="aximo-contact-info-data">
+								<span>UK Office address</span>
+							
+								<p>Burton On trend - England </p>
 							</div>
 						</div>
 					</div>

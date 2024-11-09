@@ -41,23 +41,23 @@ function FooterContent() {
 
 			<div className="aximo-social-icon social-large">
 				<ul>
-					<li>
+					{/* <li>
 						<a href="https://twitter.com/" target="_blank">
 							<i className="icon-twitter"></i>
 						</a>
-					</li>
-					<li>
+					</li> */}
+					{/* <li>
 						<a href="https://facebook.com/" target="_blank">
 							<i className="icon-facebook"></i>
 						</a>
-					</li>
+					</li> */}
 					<li>
-						<a href="https://www.instagram.com/" target="_blank">
+						<a href="https://www.instagram.com/indiantechsolutions?igsh=MWFjM2htdXZwcXYxbQ==" target="_blank">
 							<i className="icon-instagram"></i>
 						</a>
 					</li>
 					<li>
-						<a href="https://www.linkedin.com/" target="_blank">
+						<a href="https://www.linkedin.com/company/indian-tech-solutions" target="_blank">
 							<i className="icon-linkedin"></i>
 						</a>
 					</li>
