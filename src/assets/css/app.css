@@ -10329,7 +10329,7 @@ button#aximo-notified-btn {
 
 .button-container button:hover {
 	background-color: #bff747; /* Darker green on hover */
-	transform: translateY(-2px); /* Slight lift effect on hover */
+	/* transform: translateY(-2px); Slight lift effect on hover */
 	color: #000 !important ;
 }
 
