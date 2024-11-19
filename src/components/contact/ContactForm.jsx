@@ -60,14 +60,13 @@ function ContactForm() {
 
         <div className="row">
           <div className="col-lg-5 order-lg-2">
-            <div className="aximo-contact-thumb ">
-              <LazyLoadImage
-                src={ContactThumb}
-                width={397}
-                height={635}
-                alt="Contact Thumb"
-                effect="blur"
-              />
+            <div className="aximo-contact-thumb">
+            <LazyLoadImage
+  src={ContactThumb}
+  alt="Contact Thumb"
+  effect="blur"
+  style={{ width: '100%', height: '100%' }}
+/>
             </div>
           </div>
           <div className="col-lg-7">

@@ -9926,14 +9926,19 @@ a.comment-reply {
 
 .aximo-contact-thumb {
 	border-radius: 17px;
+	width: 100%;
 	overflow: hidden;
 	margin-left: 40px;
 	border: 7px solid var(--heading-color);
+}
+.aximo-contact-thumb img {
+	width: 100%;
 }
 @media (max-width: 991px) {
 	.aximo-contact-thumb {
 		margin-left: 0;
 		margin-bottom: 40px;
+			
 	}
 }
 
