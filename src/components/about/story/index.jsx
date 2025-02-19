@@ -29,10 +29,10 @@ function Story() {
 								<img src={Star2Img} alt="star" />
 							</span>
 						</span>
-						worth sharing with you
+						worth sharing with you 
 					</h2>
 					<p>
-					Founded in 2020, Indian Tech Solutions started as a solo venture by a tech enthusiast passionate about web solutions. Initially working as a freelancer, we quickly began receiving more orders, leading to the establishment of Indian Tech Solutions. Today, we’re proud to be a trusted technology agency with a skilled team of over 15 professionals dedicated to delivering high-quality digital solutions
+					Founded in 2019, Indian Tech Solutions started as a solo venture by a tech enthusiast passionate about web solutions. Initially working as a freelancer, we quickly began receiving more orders from clients, leading to the establishment of Indian Tech Solutions. Today, we’re proud to be a trusted technology agency with a skilled team of over 15 professionals dedicated to delivering high-quality digital solutions
 					</p>
 				</div>
 
